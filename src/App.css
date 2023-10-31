@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: sans-serif;
+    background-color: #404040;
+
+    height: 600vh;
+}
+
+
+/*Temporário*/
+.menu {
+    background-color: #404040;
+
+    color: white;
+    font-weight: 700;
+    font-size: 1.75rem;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Estilo do bloco Home, que contém  o slogan e o banner*/
+.blocoHome {
+    display: flex;
+    flex-direction: column;
+
+    height: 70vh;
+    width: auto;
+
+    padding: 2rem;
+
+    background-image: linear-gradient(to bottom, #404040, #4F6EDD);
+    border-radius: 2rem;
+}
+
+
+.blocoHome h3 {
+    margin-top: auto;
+    color: white;
+    text-align: center;
+    font-size: 1.85rem;
+}
+
+
+/*Estilo de todos os blocos por itens*/
+.blocoContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    width: auto;
+    margin-top: 2.5rem;
+
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    gap: 1.75rem;
+}
+
+
+.blocoContent img {
+    background-color: white;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+
+}
+
+
+/* Estilo de todos os títulos*/
+.titles {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/*linha abaixo de cada título*/
+.line {
+    border-bottom: 2px solid #4F6EDD;
+    width: 80vw;
+    margin-bottom: 1rem;
+}
