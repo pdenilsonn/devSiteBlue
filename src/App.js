@@ -1,17 +1,17 @@
 import './App.css';
 import ButtonTop from './Components/buttonTop';
 import Navbar from "./Components/navbar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar></Navbar>
-        <Switch>
-          <Route path="/"></Route>
-        </Switch>
+        <Navbar/>
+        <Routes>
+          <Route path="/" />
+        </Routes>
       </Router>
       <ButtonTop></ButtonTop>
       <div className="menu">
@@ -24,7 +24,7 @@ function App() {
         <div className=""></div>
       </div>
 
-      <div className="blocoContent">
+      <div className="blocoContent" id="security">
         <div>
           <h3 className="titles">Trusted Partner</h3>
           <p className="line"></p>
