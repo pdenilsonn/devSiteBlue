@@ -13,21 +13,6 @@ body {
     height: 600vh;
 }
 
-
-/*Temporário*/
-.menu {
-    background-color: #404040;
-
-    color: white;
-    font-weight: 700;
-    font-size: 1.75rem;
-    padding: 1rem;
-
-    display: flex;
-    justify-content: space-between;
-}
-
-
 /*Estilo do bloco Home, que contém  o slogan e o banner*/
 .blocoHome {
     display: flex;

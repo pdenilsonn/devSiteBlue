@@ -1,23 +1,14 @@
 import './App.css';
 import ButtonTop from './Components/buttonTop';
-import Navbar from "./Components/navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from './Components/Navbar.css';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar/>
-        <Routes>
-          <Route path="/" />
-        </Routes>
-      </Router>
-      <ButtonTop></ButtonTop>
-      <div className="menu">
-        <p>B l u e b i r d</p>
-        <p>[--]</p>
-      </div>
+      <Navbar/>
+      <ButtonTop/>
 
       <div className="blocoHome">
         <h3> Dublado: incrível <br />como o original</h3>
@@ -37,6 +28,28 @@ function App() {
             Oferecemos serviços em português, inglês e espanhol. Contamos com uma acústica de alta qualidade e engenheiros. Oferecemos serviços em português, inglês e espanhol. Contamos com uma acústica de alta qualidade e.</p>
         </div>
       </div>
+
+      <div className='blocoContent' id='services'>
+      <p>Services</p>
+
+      </div>
+
+      <div className='blocoContent' id='services'>
+      <p>Services</p>
+
+      </div>
+
+      <div className='blocoContent' id='services'>
+      <p>Services</p>
+
+      </div>
+
+      <div className='blocoContent' id='services'>
+      <p>Services</p>
+
+      </div>
+
+
     </div>
   );
 }
