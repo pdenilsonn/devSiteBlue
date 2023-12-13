@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Poppins, sans-serif;
 }
 
 
@@ -78,4 +79,22 @@ body {
     border-bottom: 2px solid #4F6EDD;
     width: 80vw;
     margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 720px) {
+    .blocoContent {
+        display: flex;
+
+        padding: 2rem 16rem 2rem 16rem;
+
+
+    }
+
+    /*linha abaixo de cada título*/
+    .line {
+        border-bottom: 2px solid #4F6EDD;
+        width: 50vw;
+        margin-bottom: 1rem;
+    }
+
 }

@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2rem;
+    width: auto;
+
+    background: #4F6EDD;
+
+    
+}
+
+#navbar {
+    display: flex;
+    list-style: none;
+    color: white;
+
+    cursor: pointer;
+    
+}
+
+
+
+#navbar li {
+    padding: 0.5rem;
+}
+
+#navbar li:hover {
+    border-bottom: red 2px solid;
+    transition: ease-in-out;
+}
