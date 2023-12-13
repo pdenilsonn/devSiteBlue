@@ -30,23 +30,34 @@ function App() {
       </div>
 
       <div className='blocoContent' id='services'>
-        <p>Services</p>
+      <div>
+          <h3 className="titles">Serviços</h3>
+          <p className="line"></p>
+        </div>
 
       </div>
 
-      <div className='blocoContent' id='services'>
-        <p>Services</p>
+      <div className='blocoContent' id='clients'>
+      <div>
+          <h3 className="titles">Clientes</h3>
+          <p className="line"></p>
+        </div>
 
       </div>
 
-      <div className='blocoContent' id='services'>
-        <p>Services</p>
+      <div className='blocoContent' id='dubbing'>
+      <div>
+          <h3 className="titles">Dublagem</h3>
+          <p className="line"></p>
+        </div>
 
       </div>
 
-      <div className='blocoContent' id='services'>
-        <p>Services</p>
-
+      <div className='blocoContent' id='studios'>
+      <div>
+          <h3 className="titles">Nossos Estúdios</h3>
+          <p className="line"></p>
+        </div>
       </div>
 
 

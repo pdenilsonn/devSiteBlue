@@ -1,10 +1,13 @@
+import { Component } from 'react';
 import './Navbar.css';
 
-function Navbar() {
+class Navbar extends Component {
+    state={ clicked: false}
+    render() {
     return (
         <>
             <nav>
-                <a href="#"><img src="../img/logo.svg"></img>
+                <a href="#"><img src="../img/logo.svg" />
                         
                 </a>
 
@@ -27,10 +30,16 @@ function Navbar() {
                         </li>
                     </ul>
                 </div>
+
+                <div id="mobile">
+                    <i id="bar" className={
+                        this.state.clicked ? 'fas fa-times' : 'fas fa-bars'
+                    } />
+                </div>
             </nav>
 
         </>
     )
-}
+}}
 
 export default Navbar

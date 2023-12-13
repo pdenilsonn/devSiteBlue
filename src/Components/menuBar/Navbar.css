@@ -1,18 +1,19 @@
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
-    padding: 2rem;
-    width: auto;
-
+    padding: 1rem 4rem;
+    
+    
     background: #4F6EDD;
 
-    
+    box-shadow: 3px 3px 20px #404040;
 }
 
 #navbar {
     display: flex;
+    align-items: center;
     list-style: none;
     color: white;
 
@@ -20,13 +21,14 @@ nav {
     
 }
 
-
-
 #navbar li {
-    padding: 0.5rem;
-}
-
-#navbar li:hover {
-    border-bottom: red 2px solid;
+    padding: 0rem 1rem;
+    justify-content: left;
+    font-weight: 500;
     transition: ease-in-out;
 }
+
+#mobile i {
+    color: white;
+}
+
