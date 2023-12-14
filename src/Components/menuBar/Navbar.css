@@ -2,33 +2,112 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-    padding: 1rem 4rem;
     
+    position: fixed;
+    width: 100vw;
     
     background: #4F6EDD;
-
     box-shadow: 3px 3px 20px #404040;
 }
+
 
 #navbar {
     display: flex;
     align-items: center;
+    justify-content: center; 
+    
+
+    gap: 0.75rem;
+
     list-style: none;
     color: white;
-
     cursor: pointer;
     
 }
 
+
 #navbar li {
-    padding: 0rem 1rem;
+    display: flex;
     justify-content: left;
+    padding: 1rem 1rem;
+    
     font-weight: 500;
-    transition: ease-in-out;
+    transition: 0.3s;
+    
+}
+
+#navbar li:hover {
+    background: #708fff;
+
+}
+
+#navbar #contato {
+    display: none;
+}
+
+#mobile {
+    display: none;
 }
 
 #mobile i {
     color: white;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+
+
+@media screen and (max-width:769px) {
+    nav {
+        padding: 1rem 1rem;
+    }
+    #navbar {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: fixed;
+        padding: 6rem 2rem;
+        
+        top: 0rem;
+        right: -200rem;
+        width: 60vw;
+        height: 100vh;
+        gap: 1.5rem;
+        
+        list-style: none;
+        background: #4F6EDD;
+        cursor: pointer;
+        color: white;
+
+        transition: 10ms ease-in-out;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    /* Parte que contém inf. de contato no menu */
+    #navbar #contato {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        gap: 0.25rem;
+
+    }
+
+    #mobile {
+        
+        display: block;
+    }
+
+    #mobile i {
+        font-size: 1.5rem;
+        cursor: pointer;
+        
+        position: absolute;
+        top: 1rem;
+    }
 }
 

@@ -30,7 +30,7 @@ function App() {
       </div>
 
       <div className='blocoContent' id='services'>
-      <div>
+        <div>
           <h3 className="titles">Serviços</h3>
           <p className="line"></p>
         </div>
@@ -38,7 +38,7 @@ function App() {
       </div>
 
       <div className='blocoContent' id='clients'>
-      <div>
+        <div>
           <h3 className="titles">Clientes</h3>
           <p className="line"></p>
         </div>
@@ -46,7 +46,7 @@ function App() {
       </div>
 
       <div className='blocoContent' id='dubbing'>
-      <div>
+        <div>
           <h3 className="titles">Dublagem</h3>
           <p className="line"></p>
         </div>
@@ -54,9 +54,29 @@ function App() {
       </div>
 
       <div className='blocoContent' id='studios'>
-      <div>
+        <div>
           <h3 className="titles">Nossos Estúdios</h3>
           <p className="line"></p>
+        </div>
+      </div>
+
+      {/* Esse container é para o formulário de envio de vozes */}
+      <div className='blocoContent' id='contato'>
+        <div>
+          <h3 className="titles">Sua voz</h3>
+          <p className="line"></p>
+        </div>
+        <div>
+          <p> Você dubla? Queremos ouvir sua voz! Nos envie uma amostra, você pode está em nosso próximo projeto.</p>
+        </div>
+        <div>
+          <form>
+            <input type='text' placeholder='Seu Nome'>
+            </input>
+            <input type='email' placeholder='Sua e-mail'></input>
+            <input type='text' placeholder='Fale sobre você'></input>
+            <button> Enviar </button>
+          </form>
         </div>
       </div>
 
