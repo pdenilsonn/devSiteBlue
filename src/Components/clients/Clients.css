@@ -1,0 +1,12 @@
+.contentClient {
+    display: flex;
+
+
+    width: auto;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.contentClient img {
+    size: 2rem;
+}

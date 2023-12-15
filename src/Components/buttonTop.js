@@ -27,20 +27,25 @@ function ButtonTop() {
         {backToTopButton && (
             <button style={{
             backgroundColor: "#4F6EDD",
-            width: "4rem",
-            height: "4rem",
+            position: "fixed",
+            cursor: 'pointer',
             borderRadius: "20rem",
             border: "none",
+            boxShadow: "3px 3px 20px #404040",
+
+            width: "4rem",
+            height: "4rem",
         
-            position: "fixed",
             bottom: "1rem",
             right: "1rem",
 
-            cursor: 'pointer',
-            transition: "ease-in-out",
+            transition: "0.5s ease-in-out",
             }} onClick={scrollUp}> 
 
-            <img src="#"/>
+            <i class="fa-solid fa-up-long" style={{
+                color: "white",
+                fontSize: "1.5rem",
+            }}></i>
 
             </button>
 

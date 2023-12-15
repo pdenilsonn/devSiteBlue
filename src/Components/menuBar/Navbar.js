@@ -1,5 +1,8 @@
 import { Component } from 'react';
 import './Navbar.css';
+import logo from '../img/logo.webp';
+
+
 
 class Navbar extends Component {
     state = { clicked: false };
@@ -10,13 +13,11 @@ class Navbar extends Component {
         return (
             <>
                 <nav>
-                    <a href="#"><img src="../img/logo.svg" /> </a>
+                    <a href="https://www.bluebirdaudio.com.br"> <img src={logo} />
+                    </a>
 
                     <div>
                         <ul id='navbar' className={this.state.clicked ? "#navbar active" : "#navbar"}>
-                            <li href="">
-                                Segurança
-                            </li>
                             <li href="">
                                 Serviços
                             </li>
@@ -27,15 +28,12 @@ class Navbar extends Component {
                                 Dublagem
                             </li>
                             <li href="">
+                                Sobre Nós
+                            </li>
+                            <li href="">
                                 Nossos Estúdios
                             </li>
-                            <li id='contato'>
-                                <span>Instagram</span>
-                                <span>sergio.nogueira@bluebirdaudiovisual.com.br</span>
-                            </li>
                         </ul>
-
-
                     </div>
 
                     <div id="mobile" onClick={this.handleClick}>
@@ -43,9 +41,6 @@ class Navbar extends Component {
                             this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}
                         />
                     </div>
-
-
-
 
                 </nav>
 
