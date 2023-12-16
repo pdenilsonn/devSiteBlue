@@ -1,12 +1,36 @@
-.contentClient {
+
+.contentClient  {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
 
+    gap: 3rem;
 
-    width: auto;
-    padding: 2rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.logoClient {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
+
+
 }
 
-.contentClient img {
-    size: 2rem;
-}
+.logoClient img {
+    height: 5rem;
+    width: 7rem;
+    border-radius: 1rem;
+    background: white;
+}   

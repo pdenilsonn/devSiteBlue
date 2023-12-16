@@ -9,7 +9,8 @@
 
 body {
     font-family: sans-serif;
-    background-color: #404040;
+    background: rgb(64,64,64);
+    background: radial-gradient(circle, rgba(64,64,64,1) 12%, rgba(35,35,35,1) 33%, rgba(64,64,64,1) 52%, rgba(35,35,35,1) 71%, rgba(64,64,64,1) 92%);
 
     height: 600vh;
 }
@@ -44,9 +45,8 @@ body {
     justify-content: center;
     align-items: center;
 
-    padding: 1rem;
+    padding: 1.5rem;
     width: auto;
-    margin-top: 2.5rem;
 
     color: white;
     font-size: 1rem;
@@ -55,24 +55,22 @@ body {
     gap: 1.75rem;
 }
 
-
-.blocoContent img {
-    background-color: white;
-    width: 10rem;
-    height: 10rem;
-    border-radius: 1rem;
-
+/* Estilo de todos os títulos*/
+.gTitles {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-
-/* Estilo de todos os títulos*/
 .titles {
+
     color: white;
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
-
 
 /*linha abaixo de cada título*/
 .line {
@@ -81,20 +79,39 @@ body {
     margin-bottom: 1rem;
 }
 
-@media only screen and (min-width: 720px) {
+
+#seguranca img {
+    height: 8rem;
+
+
+}
+
+
+
+@media only screen and (min-width: 769px) {
+    .gTitles {
+        padding: 4rem 0rem;
+    }
+
     .blocoContent {
         display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
 
-        padding: 2rem 16rem 2rem 16rem;
+        padding: 2rem 4rem;
+
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+
 
 
     }
 
     /*linha abaixo de cada título*/
     .line {
-        border-bottom: 2px solid #4F6EDD;
         width: 50vw;
-        margin-bottom: 1rem;
     }
 
 }

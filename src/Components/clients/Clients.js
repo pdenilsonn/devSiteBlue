@@ -3,21 +3,40 @@ import './Clients.css';
 function Clients() {
     return (
         <>
-            <div className='blocoContent' id='clientes'>
-                <div>
+            <div id='clientes'>
+                <div className='gTitles'>
                     <h3 className="titles">Clientes</h3>
                     <p className="line"></p>
                 </div>
+                {/* criar um carrossel em loop sempre ligado para ficar passando todoas as logos dos clienteas */}
                 <div className='contentClient'>
-                    <img></img>
-                    <img></img>
-                    <img></img>
+                    <div className='logoClient'>
+                        <img src="../img/clientes/disney.webp"></img>
+                        <img src="../img/clientes/disney.webp"></img>
+                        <img src="../img/clientes/disney.webp"></img>
+                        <img src="../img/clientes/disney.webp"></img>
+                        <img src="../img/clientes/disney.webp"></img>
+                        <img src="../img/clientes/disney.webp"></img>
+                        <img src="../img/clientes/disney.webp"></img>
+                    </div>
+
+                    <div>
+                        <p>Além disso, a BlueBird já desenvolveu e ainda desenvolve milhares de trilhas sonoras para as principais emissoras brasileiras como: Rede Globo, SBT, RECORD e GAZETA!</p>
+
+                        <div className='logoClient'>
+                        <img src="../img/clientes/disney.webp"></img>
+                        <img src="../img/clientes/disney.webp"></img>
+                        <img src="../img/clientes/disney.webp"></img>
+                        <img src="../img/clientes/disney.webp"></img>
+                        <img src="../img/clientes/disney.webp"></img>
+                        <img src="../img/clientes/disney.webp"></img>
+                        <img src="../img/clientes/disney.webp"></img>
+                        </div>
+                    </div>
                 </div>
-
-                <p>Besides that, BlueBirdRMP has already developed and still develops thousands of soundtracks for the main Brazilian broadcasters such as: Rede Globo, SBT, RECORD and GAZETA!</p>
-
-
             </div>
+
+
         </>
     )
 }
