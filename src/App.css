@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
 
+
+
 * {
     padding: 0;
     margin: 0;
@@ -18,16 +20,34 @@ body {
 /*Estilo do bloco Home, que contém  o slogan e o banner*/
 .blocoHome {
     display: flex;
-    flex-direction: column;
-
-    height: 70vh;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    
+    height: 60vh;
     width: auto;
 
-    padding: 2rem;
+    background-color: black;
+    background-image: url('./Components/img/homepageBackground.webp');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
 
-    background-image: linear-gradient(to bottom, #404040, #4F6EDD);
-    border-radius: 2rem;
+    border-radius: 0rem 0rem 2rem 2rem;
 }
+
+.blocoHome p {
+    display: flex;
+    align-items: center;
+    
+    color: white;
+    font-weight: 800;
+    font-size: 1.75rem;
+    margin-left: 14vw;
+    
+}
+
+
 
 
 .blocoHome h3 {
@@ -49,7 +69,7 @@ body {
     width: auto;
 
     color: white;
-    font-size: 1rem;
+    font-size: 0.90rem;
     font-weight: 400;
     text-align: left;
     gap: 1.75rem;
@@ -94,19 +114,20 @@ body {
     }
 
     .blocoContent {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-
         padding: 2rem 4rem;
 
         max-width: 960px;
         margin-left: auto;
         margin-right: auto;
 
+    }
 
-
+    .blocoHome {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+       
+        
     }
 
     /*linha abaixo de cada título*/

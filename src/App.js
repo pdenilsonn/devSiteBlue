@@ -12,9 +12,11 @@ function App() {
       <ButtonTop />
 
       <div className="blocoHome">
-        <h3> Dublado: incrível <br />como o original</h3>
-        <div className=""></div>
+        <p> Dublado: incrível <br/>como o original</p>
+        
       </div>
+      
+      
 
       <div id="seguranca">
         <div className='gTitles'>
