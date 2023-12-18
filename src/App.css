@@ -37,24 +37,16 @@ body {
 }
 
 .blocoHome p {
-    display: flex;
-    align-items: center;
-    
     color: white;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1.75rem;
     margin-left: 14vw;
-    
+    line-height: 1.9rem;
 }
 
-
-
-
-.blocoHome h3 {
-    margin-top: auto;
-    color: white;
-    text-align: center;
-    font-size: 1.85rem;
+.blocoHome span {
+    font-weight: 800;
+    color: #4F6EDD;
 }
 
 

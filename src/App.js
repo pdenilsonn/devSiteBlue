@@ -12,7 +12,7 @@ function App() {
       <ButtonTop />
 
       <div className="blocoHome">
-        <p> Dublado: incrível <br/>como o original</p>
+        <p> <span>Dublado:</span> incrível <br/>como o original</p>
         
       </div>
       
