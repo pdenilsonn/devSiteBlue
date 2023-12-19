@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
 
 
-
 * {
     padding: 0;
     margin: 0;
@@ -10,24 +9,23 @@
 
 
 body {
-    font-family: sans-serif;
-    background: rgb(64,64,64);
-    background: radial-gradient(circle, rgba(64,64,64,1) 12%, rgba(35,35,35,1) 33%, rgba(64,64,64,1) 52%, rgba(35,35,35,1) 71%, rgba(64,64,64,1) 92%);
-
-    height: 600vh;
+    background: #404040;
+   
 }
+
 
 /*Estilo do bloco Home, que contém  o slogan e o banner*/
 .blocoHome {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    top: 0;
     
-    height: 60vh;
+    height: 40rem;
     width: auto;
 
-    background-color: black;
+    background-color: #404040;
     background-image: url('./img/homepageBackground.webp');
     background-size: cover;
     background-position: center top;
@@ -36,17 +34,18 @@ body {
     border-radius: 0rem 0rem 2rem 2rem;
 }
 
+
 .blocoHome p {
     color: white;
     font-weight: 500;
-    font-size: 1.75rem;
-    margin-left: 14vw;
-    line-height: 1.9rem;
+    font-size: 1.65rem
 }
+
 
 .blocoHome span {
     font-weight: 800;
-    color: #4F6EDD;
+    color: #5AA0F2;
+    font-size: 1.75rem;
 }
 
 
@@ -58,7 +57,10 @@ body {
     align-items: center;
 
     padding: 1.5rem;
-    width: auto;
+    
+
+    margin-left: auto;
+    margin-right: auto;
 
     color: white;
     font-size: 0.90rem;
@@ -66,6 +68,7 @@ body {
     text-align: left;
     gap: 1.75rem;
 }
+
 
 /* Estilo de todos os títulos*/
 .gTitles {
@@ -76,6 +79,7 @@ body {
     flex-direction: column;
 }
 
+
 .titles {
 
     color: white;
@@ -84,20 +88,13 @@ body {
     margin-bottom: 0.5rem;
 }
 
+
 /*linha abaixo de cada título*/
 .line {
-    border-bottom: 2px solid #4F6EDD;
-    width: 80vw;
+    border-bottom: 2px solid #5AA0F2;
+    width: 50vw;
     margin-bottom: 1rem;
 }
-
-
-#seguranca img {
-    height: 8rem;
-
-
-}
-
 
 
 @media only screen and (min-width: 769px) {
@@ -105,26 +102,40 @@ body {
         padding: 4rem 0rem;
     }
 
+
     .blocoContent {
+        align-items: center;
+        flex-direction: row;
         padding: 2rem 4rem;
 
         max-width: 960px;
         margin-left: auto;
         margin-right: auto;
-
     }
+
 
     .blocoHome {
         display: flex;
         justify-content: left;
         align-items: center;
-       
         
     }
 
-    /*linha abaixo de cada título*/
-    .line {
-        width: 50vw;
+
+    .blocoHome p {
+        font-size: 2rem;
+        margin-left: 14vw;
+        line-height: 1.9rem;
     }
 
+
+    .blocoHome span {
+        font-size: 2.1rem;
+    }
+
+
+    /*linha abaixo de cada título*/
+    .line {
+        width: 70vw;
+    }
 }

@@ -26,12 +26,12 @@ function ButtonTop() {
 
         {backToTopButton && (
             <button style={{
-            backgroundColor: "#4F6EDD",
+            backgroundColor: "#649ec9",
             position: "fixed",
             cursor: 'pointer',
             borderRadius: "20rem",
             border: "none",
-            boxShadow: "3px 3px 20px #413280",
+            boxShadow: "1px 1px 8px #649ec9",
 
             width: "4rem",
             height: "4rem",
