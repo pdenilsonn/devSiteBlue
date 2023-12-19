@@ -39,7 +39,7 @@ function ButtonTop() {
             bottom: "1rem",
             right: "1rem",
 
-            transition: "0.5s ease-in-out",
+            transition: " 3s ease-in-out",
             }} onClick={scrollUp}> 
 
             <i class="fa-solid fa-up-long" style={{
