@@ -31,7 +31,7 @@ function ButtonTop() {
             cursor: 'pointer',
             borderRadius: "20rem",
             border: "none",
-            boxShadow: "3px 3px 20px #404040",
+            boxShadow: "3px 3px 20px #413280",
 
             width: "4rem",
             height: "4rem",
