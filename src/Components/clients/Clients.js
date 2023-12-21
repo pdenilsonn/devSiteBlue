@@ -2,6 +2,7 @@ import './Clients.css';
 
 
 
+
 function Clients() {
     return (
         <>
@@ -13,7 +14,7 @@ function Clients() {
                 {/* criar um carrossel em loop sempre ligado para ficar passando todoas as logos dos clienteas */}
                 <div className='contentClient'>
                     <div className='logoClient'>
-                        <img src="../../img/clients/logoDisney.webp"/>
+                        <img src="../../img/clients/logoDisney.webp"></img>
                         
                     </div>
 
