@@ -5,12 +5,13 @@ nav {
     justify-content: space-around;
     
     
-
+    
     width: 100%;
     
     background: #5AA0F2;
     
 }
+
 
 
 #navbar {
@@ -36,9 +37,10 @@ nav {
     
     font-weight: 500;
     transition: 0.3s;
+
+    
     
 }
-
 
 #navbar li:hover {
     background: #9fd5ff;
@@ -65,12 +67,11 @@ img {
 
 @media screen and (max-width:769px) {
     nav {
-        padding-top: 2rem;
-        background: none;
-        display: fixed;
-
-        margin-left: auto;
-        margin-right: auto;
+        position: fixed;
+        padding-top: 1rem;
+        padding-bottom: 0.75rem;
+        align-items: center;
+        
         
     }
     #navbar {
@@ -87,10 +88,7 @@ img {
         height: 100vh;
         gap: 1.5rem;
         
-        list-style: none;
         background: #5AA0F2;
-        cursor: pointer;
-        color: white;
 
         transition: 0.3s ease-in-out;
     }
@@ -100,17 +98,15 @@ img {
     }
 
     #mobile {
-        
         display: block;
+        z-index: 1000;
     }
 
     #mobile i {
         font-size: 1.5rem;
         cursor: pointer;
         
-        padding-top: 0.75rem;
-        position: absolute;
-        top: 1rem;
+        
     }
 }
 

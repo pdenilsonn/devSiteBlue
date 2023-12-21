@@ -13,25 +13,25 @@ class Navbar extends Component {
         return (
             <>
                 <nav>
-                    <a href="https://www.bluebirdaudio.com.br"> <img src={logo} />
+                    <a href="#"> <img src={logo} />
                     </a>
 
                     <div>
                         <ul id='navbar' className={this.state.clicked ? "#navbar active" : "#navbar"}>
-                            <li href="">
-                                Serviços
+                            <li>
+                                <a href="#servicos"> Serviços </a>
                             </li>
-                            <li href="">
-                                Clientes
+                            <li>
+                                <a href="#clientes"> Clientes </a>
                             </li>
-                            <li href="">
-                                Dublagem
+                            <li>
+                                <a href="#dubbing"> Dublagem </a>
                             </li>
-                            <li href="">
-                                Sobre Nós
+                            <li>
+                                <a href="#sobreNos"> Sobre Nós </a>
                             </li>
-                            <li href="">
-                                Nossos Estúdios
+                            <li>
+                                <a href="#estudios"> Nossos Estúdios </a>
                             </li>
                         </ul>
                     </div>
