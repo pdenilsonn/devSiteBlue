@@ -19,15 +19,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 1rem;
-    top: 0;
+    padding-bottom: 2rem;
+    
     
     height: 40rem;
     width: auto;
 
     background-color: #404040;
     background-image: url('./img/homepageBackground.webp');
-    background-size: cover;
+    background-size: 250%;
     background-position: center top;
     background-repeat: no-repeat;
 
@@ -115,6 +115,8 @@ body {
 
 
     .blocoHome {
+        background-size: 100%;
+        background-position: center 2rem;
         display: flex;
         justify-content: left;
         align-items: center;
