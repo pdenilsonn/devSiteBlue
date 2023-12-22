@@ -26,12 +26,12 @@ function ButtonTop() {
 
         {backToTopButton && (
             <button style={{
-            backgroundColor: "#649ec9",
+            backgroundColor: "#ffff",
             position: "fixed",
             cursor: 'pointer',
             borderRadius: "20rem",
             border: "none",
-            boxShadow: "1px 1px 8px #649ec9",
+            boxShadow: "1px 1px 8px #5AA0F2",
 
             width: "4rem",
             height: "4rem",
@@ -43,7 +43,7 @@ function ButtonTop() {
             }} onClick={scrollUp}> 
 
             <i class="fa-solid fa-up-long" style={{
-                color: "white",
+                color: "#5AA0F2",
                 fontSize: "1.5rem",
             }}></i>
 

@@ -1,9 +1,17 @@
+.blocoContent img {
 
 
-#seguranca img {
+    border-radius: 0.75rem;
     height: 7rem;
-    padding: 1rem;
-    border-radius: 2rem;
+}
 
-    
+.blocoContent .img::before {
+    content: "";
+    background: #5AA0F2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -8.3%;
+    left: -33%;
+    z-index: 0;
 }
