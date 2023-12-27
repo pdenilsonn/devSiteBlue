@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './Navbar.css';
-import logo from '../img/logo.webp';
+import logo from 'src/img/logo.webp';
 
 
 
