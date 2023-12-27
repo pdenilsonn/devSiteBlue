@@ -1,14 +1,17 @@
 nav {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0rem 1rem;
     
     
     
-    background: #4F6EDD;
-    box-shadow: 3px 3px 20px #404040;
+    width: 100%;
+    
+    background: #5AA0F2;
+    
 }
+
 
 
 #navbar {
@@ -16,7 +19,6 @@ nav {
     align-items: center;
     justify-content: center; 
     
-
     gap: 0.75rem;
 
     list-style: none;
@@ -35,13 +37,13 @@ nav {
     
     font-weight: 500;
     transition: 0.3s;
+
+    
     
 }
 
-
 #navbar li:hover {
-    background: #708fff;
-
+    background: #9fd5ff;
 }
 
 
@@ -65,7 +67,12 @@ img {
 
 @media screen and (max-width:769px) {
     nav {
-        padding: 1rem 1rem;
+        position: fixed;
+        padding-top: 1rem;
+        padding-bottom: 0.75rem;
+        align-items: center;
+        
+        
     }
     #navbar {
         display: flex;
@@ -81,10 +88,7 @@ img {
         height: 100vh;
         gap: 1.5rem;
         
-        list-style: none;
-        background: #4F6EDD;
-        cursor: pointer;
-        color: white;
+        background: #5AA0F2;
 
         transition: 0.3s ease-in-out;
     }
@@ -94,16 +98,15 @@ img {
     }
 
     #mobile {
-        
         display: block;
+        z-index: 1000;
     }
 
     #mobile i {
         font-size: 1.5rem;
         cursor: pointer;
         
-        position: absolute;
-        top: 1rem;
+        
     }
 }
 
