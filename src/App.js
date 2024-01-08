@@ -24,7 +24,7 @@ function App() {
       <Dubbing />
       <Studios />
 
-      <div id='sobreNos'>
+      <div className='container' id='sobreNos'>
         <div className='gTitles'>
           <h3 className="titles">Sobre Nós</h3>
           <p className="line"></p>
@@ -37,7 +37,7 @@ function App() {
       </div>
 
       {/* Esse container é para o formulário de envio de vozes */}
-      <div id='contato'>
+      <div className='container' id='suaVoz'>
         <div className='gTitles'>
           <h3 className="titles">Sua voz</h3>
           <p className="line"></p>
@@ -57,11 +57,13 @@ function App() {
       </div>
 
       <footer>
-        <span>
-          Contato;
-          (21)993949090
-          mail@mail.com
-        </span>
+        <div className='container'>
+          <span>
+            Contato;
+            (21)993949090
+            mail@mail.com
+          </span>
+        </div>
 
       </footer>
     </div>
