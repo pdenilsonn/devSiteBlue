@@ -10,15 +10,19 @@ function Dubbing() {
                     <p className="line"></p>
                 </div>
                 <div className='blocoDubbing'>
-                    <h3><span>Mais de 80 séries</span> nos principais streaming</h3>
+                    <h3><span>Mais de 80 produções</span> nas principais plataformas de streaming e canais de televisão.</h3>
                     <div className='cardContainer'>
                         {imgDubbing.map(item => (
                             <div className='cardImg'>
                                 <img key={item.id} src={item.img} alt={item.alt} />
                             </div>
                         ))}
+                        
                     </div>
-
+                    <a href=''>
+                    <button className='btnDubbing'>Ver mais</button>
+                    </a>
+                            
 
                 </div>
             </div>
