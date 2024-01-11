@@ -1,15 +1,31 @@
 {
   "files": {
-    "main.css": "/devSiteBlue/static/css/main.e2df94b8.css",
-    "main.js": "/devSiteBlue/static/js/main.c7881161.js",
+    "main.css": "/devSiteBlue/static/css/main.d76db5d6.css",
+    "main.js": "/devSiteBlue/static/js/main.468975b6.js",
+    "static/media/capaPrey.jpeg": "/devSiteBlue/static/media/capaPrey.8bab325b502193b886f6.jpeg",
     "static/media/homepageBackground.webp": "/devSiteBlue/static/media/homepageBackground.8b23ad47478ccc94d3a7.webp",
+    "static/media/capaPose.jpg": "/devSiteBlue/static/media/capaPose.bb3721564e5926e178a8.jpg",
+    "static/media/capaGoodBurder.jpg": "/devSiteBlue/static/media/capaGoodBurder.ca1c8d8fde21329e3eda.jpg",
+    "static/media/capaWWDITS.jpg": "/devSiteBlue/static/media/capaWWDITS.df5372cc29e428e15f87.jpg",
+    "static/media/capaAtlanta.jpg": "/devSiteBlue/static/media/capaAtlanta.0cdd33a43b3caf8f1178.jpg",
+    "static/media/logoGazeta.webp": "/devSiteBlue/static/media/logoGazeta.254e35ec85e18a8618f7.webp",
+    "static/media/logoMicrosoftSt.webp": "/devSiteBlue/static/media/logoMicrosoftSt.243e2a082e847d557b38.webp",
+    "static/media/logoGloob.webp": "/devSiteBlue/static/media/logoGloob.19673cd37bb806470e46.webp",
+    "static/media/logoEpicG.webp": "/devSiteBlue/static/media/logoEpicG.0bcd4cade782f55c7044.webp",
     "static/media/logo.webp": "/devSiteBlue/static/media/logo.43bae07efe9eb73b530b.webp",
+    "static/media/logoTvBrasil.webp": "/devSiteBlue/static/media/logoTvBrasil.d8621c6b4598f5061380.webp",
+    "static/media/logoRiot.webp": "/devSiteBlue/static/media/logoRiot.619af0f6a158912f4d5d.webp",
+    "static/media/logoParamount.webp": "/devSiteBlue/static/media/logoParamount.0f9bc55d7ff8af45e486.webp",
+    "static/media/logoDisney.webp": "/devSiteBlue/static/media/logoDisney.a304d8de7165a3815e4b.webp",
+    "static/media/logoNickelodeon.webp": "/devSiteBlue/static/media/logoNickelodeon.399661193c1ec1068064.webp",
+    "static/media/logoFilmerise.webp": "/devSiteBlue/static/media/logoFilmerise.2a0d8f2b841c2ce12a3c.webp",
+    "static/media/logoMTV.webp": "/devSiteBlue/static/media/logoMTV.5da835cb8b1310ab20f8.webp",
     "index.html": "/devSiteBlue/index.html",
-    "main.e2df94b8.css.map": "/devSiteBlue/static/css/main.e2df94b8.css.map",
-    "main.c7881161.js.map": "/devSiteBlue/static/js/main.c7881161.js.map"
+    "main.d76db5d6.css.map": "/devSiteBlue/static/css/main.d76db5d6.css.map",
+    "main.468975b6.js.map": "/devSiteBlue/static/js/main.468975b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2df94b8.css",
-    "static/js/main.c7881161.js"
+    "static/css/main.d76db5d6.css",
+    "static/js/main.468975b6.js"
   ]
 }
