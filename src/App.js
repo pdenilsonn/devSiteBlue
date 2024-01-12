@@ -6,6 +6,7 @@ import Clients from './Components/clients/Clients';
 import Dubbing from './Components/dubbing/Dubbing';
 import Security from './Components/security/Security'
 import Studios from './Components/studios/Studios';
+import FormPricing from './Components/formPricing/formPricing';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
         </div>
       </div>
 
+      <FormPricing />
+
+
       {/* Esse container é para o formulário de envio de vozes */}
       <div className='container' id='suaVoz'>
         <div className='gTitles'>
@@ -43,16 +47,18 @@ function App() {
           <p className="line"></p>
         </div>
         <div className='blocoContent'>
-          <p> Você dubla? Queremos ouvir sua voz! Nos envie uma amostra, você pode está em nosso próximo projeto.</p>
+          <p> Você é dublador? Queremos ouvir sua voz! Nos envie uma amostra ou seu portfólio, você pode está em nosso próximo projeto.</p>
         </div>
 
-        <form>
-          <input type='text' placeholder='Seu Nome'>
-          </input>
-          <input type='email' placeholder='Sua e-mail'></input>
-          <input type='text' placeholder='Fale sobre você'></input>
-          <button type='button'> Enviar </button>
-        </form>
+        <div className='containerForm'>
+          <form>
+            <input type='text' placeholder='Seu Nome'></input>
+            <input type='text' placeholder='Sobrenome'></input>
+            <input type='email' placeholder='Sua e-mail'></input>
+            <input type='text' placeholder='Fale sobre você'></input>
+            <button type='button'> Enviar </button>
+          </form>
+        </div>
 
       </div>
 
