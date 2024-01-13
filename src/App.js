@@ -6,6 +6,7 @@ import Clients from './Components/clients/Clients';
 import Dubbing from './Components/dubbing/Dubbing';
 import Security from './Components/security/Security'
 import Studios from './Components/studios/Studios';
+import FormPricing from './Components/formPricing/formPricing';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       <Dubbing />
       <Studios />
 
-      <div id='sobreNos'>
+      <div className='container' id='sobreNos'>
         <div className='gTitles'>
           <h3 className="titles">Sobre Nós</h3>
           <p className="line"></p>
@@ -36,32 +37,39 @@ function App() {
         </div>
       </div>
 
+      <FormPricing />
+
+
       {/* Esse container é para o formulário de envio de vozes */}
-      <div id='contato'>
+      <div className='container' id='suaVoz'>
         <div className='gTitles'>
           <h3 className="titles">Sua voz</h3>
           <p className="line"></p>
         </div>
         <div className='blocoContent'>
-          <p> Você dubla? Queremos ouvir sua voz! Nos envie uma amostra, você pode está em nosso próximo projeto.</p>
+          <p> Você é dublador? Queremos ouvir sua voz! Nos envie uma amostra ou seu portfólio, você pode está em nosso próximo projeto.</p>
         </div>
 
-        <form>
-          <input type='text' placeholder='Seu Nome'>
-          </input>
-          <input type='email' placeholder='Sua e-mail'></input>
-          <input type='text' placeholder='Fale sobre você'></input>
-          <button type='button'> Enviar </button>
-        </form>
+        <div className='containerForm'>
+          <form>
+            <input type='text' placeholder='Seu Nome'></input>
+            <input type='text' placeholder='Sobrenome'></input>
+            <input type='email' placeholder='Sua e-mail'></input>
+            <input type='text' placeholder='Fale sobre você'></input>
+            <button type='button'> Enviar </button>
+          </form>
+        </div>
 
       </div>
 
       <footer>
-        <span>
-          Contato;
-          (21)993949090
-          mail@mail.com
-        </span>
+        <div className='container'>
+          <span>
+            Contato;
+            (21)993949090
+            mail@mail.com
+          </span>
+        </div>
 
       </footer>
     </div>
