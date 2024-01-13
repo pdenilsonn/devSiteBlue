@@ -1,4 +1,5 @@
 import './Clients.css';
+import logo from '../../img/clients/logoDisney.webp'
 
 
 
@@ -14,7 +15,8 @@ function Clients() {
                 {/* criar um carrossel em loop sempre ligado para ficar passando todoas as logos dos clienteas */}
                 <div className='contentClient'>
                     <div className='logoClient'>
-                        <img src="../../img/clients/logoDisney.webp"></img>
+                        <img alt='' src={logo}></img>
+                        <img alt='' hreft="src\img\clients\logoDisney.webp"></img>
                         
                     </div>
 

@@ -1,17 +1,27 @@
 .blocoContent img {
-
-
     border-radius: 0.75rem;
     height: 7rem;
 }
 
-.blocoContent .img::before {
+.backBox {
+    position: relative;
+}
+
+.backBox::before {
     content: "";
     background: #5AA0F2;
+    opacity: 90%;
+
     position: absolute;
     height: 100%;
     width: 100%;
-    top: -8.3%;
-    left: -33%;
+    border-radius: 1rem;
+    
     z-index: 0;
 }
+
+.backBox img {
+    position: relative;
+}
+
+

@@ -5,7 +5,7 @@ nav {
     justify-content: space-around;
     
     
-    
+    z-index: 1000;
     width: 100%;
     
     background: #5AA0F2;
