@@ -31,6 +31,9 @@ class Navbar extends Component {
                                 <a href="#sobreNos"> Sobre Nós </a>
                             </li>
                             <li>
+                                <a href="#pricing"> Orçamentos </a>
+                            </li>
+                            <li>
                                 <a href="#estudios"> Nossos Estúdios </a>
                             </li>
                         </ul>

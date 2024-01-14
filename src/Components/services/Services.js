@@ -5,10 +5,10 @@ function Services() {
     <>
       <div className='container' id='servicos' >
         <div className='gTitles'>
-          {/*<h3 className="titles">Serviços</h3>*/}
+          <h3 className="titles">Serviços</h3>
           <p className="line"></p>
         </div>
-
+        
         <div className="blocoContentS">
           <div className="serviceCard">
             <div className='cardTitle'>

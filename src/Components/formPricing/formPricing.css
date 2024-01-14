@@ -1,0 +1,209 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+    gap: 1rem;
+
+    color: white;
+}
+
+/* estilizar titulo e subtilo do container */
+.formContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.formContent h2 {
+    font-size: 2rem;
+}
+
+
+/* estiliar tudo o forulario */
+.form {
+    border: 0;
+    background-color: #ffffff4b;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.form .line {
+    border-bottom: 2px solid #5AA0F2;
+    width: 70%;
+}
+
+
+
+/* estilizar os campos em "sobre o você" */
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    gap: 0.5rem;
+}
+
+fieldset input {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    padding: 0.2rem;
+    border: 0;
+    width: 100%;
+}
+
+fieldset input::placeholder {
+    opacity: 50%;
+    font-size: 0.75rem;
+}
+
+fieldset input:focus {
+    outline: 3px solid #5AA0F2;
+}
+
+
+/* estilizando os campos sobre o "projeto" e "serviço" */
+.campo {
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+}
+
+.campo label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.campo input[type="checkbox"],
+input[type="radio"] {
+    -webkit-appearance: none;
+    cursor: pointer;
+    background-color: white;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+
+.campo input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+    background-color: white;
+    border: 5px solid #5AA0F2;
+    border-radius: 1rem;
+}
+
+
+/* estilizando a textarea para mais informações */
+textarea {
+    padding: 0.5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea::placeholder {
+    opacity: 50%;
+    font-size: 0.75rem;
+}
+
+textarea:focus {
+    outline: 3px solid #5AA0F2;
+}
+
+
+/*  estilo do botão do formulário  */
+
+.form button {
+    padding: 0.5rem;
+    width: 10rem;
+
+
+    background-color: #5AA0F2;
+    font-weight: 500;
+    color: white;
+    font-size: 1.2rem;
+
+    border: none;
+    border-radius: 12rem;
+
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 940px) {
+    .formContainer {
+        max-width: 1000px;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    /* estiliar tudo o forulario */
+    .form {
+        max-width: 450px;
+
+    }
+
+    .form .title {
+        font-size: 1.2rem;
+    }
+
+
+    /* estilizar os campos em "sobre o você" */
+    fieldset {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    /* estilizando os campos sobre o "projeto" e "serviço" */
+    .campo .options {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .campo label {
+        margin-top: 1rem;
+        
+    }
+
+
+
+    /* estilizar titulo e subtilo do container */
+    .formContent {
+        text-align: left;
+        flex-direction: column;
+
+
+    }
+
+    .formContent h2 {
+        font-size: 2rem;
+    }
+
+    .form button {
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

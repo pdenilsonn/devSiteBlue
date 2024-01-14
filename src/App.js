@@ -6,7 +6,7 @@ import Clients from './Components/clients/Clients';
 import Dubbing from './Components/dubbing/Dubbing';
 import Security from './Components/security/Security'
 import Studios from './Components/studios/Studios';
-import FormPricing from './Components/formPricing/formPricing';
+import Pricing from './Components/formPricing/FormPricing';
 
 function App() {
   return (
@@ -24,6 +24,8 @@ function App() {
       <Clients />
       <Dubbing />
       <Studios />
+      <Pricing />
+      
 
       <div className='container' id='sobreNos'>
         <div className='gTitles'>
@@ -37,7 +39,7 @@ function App() {
         </div>
       </div>
 
-      <FormPricing />
+
 
 
       {/* Esse container é para o formulário de envio de vozes */}
