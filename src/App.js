@@ -1,12 +1,15 @@
 import './App.css';
+
+
+
 import ButtonTop from './Components/buttonTop';
-import Navbar from './Components/menuBar/Navbar';
-import Services from './Components/services/Services';
-import Clients from './Components/clients/Clients';
-import Dubbing from './Components/dubbing/Dubbing';
-import Security from './Components/security/Security'
-import Studios from './Components/studios/Studios';
-import Pricing from './Components/formPricing/FormPricing';
+import Navbar from './Components/menuBar/navbar';
+import Services from './Components/services/services';
+import Clients from './Components/clients/clients';
+import Dubbing from './Components/dubbing/dubbing';
+import Security from './Components/security/security';
+import Studios from './Components/studios/studios';
+import Pricing from './Components/formPricing/formPricing';
 
 function App() {
   return (
@@ -42,7 +45,7 @@ function App() {
 
 
 
-      {/* Esse container é para o formulário de envio de vozes */}
+      {/* Esse container é para o formulário de envio de vozes 
       <div className='container' id='suaVoz'>
         <div className='gTitles'>
           <h3 className="titles">Sua voz</h3>
@@ -63,15 +66,14 @@ function App() {
         </div>
 
       </div>
+      */}
 
       <footer>
         <div className='container'>
-          <span>
-            Contato;
-            (21)993949090
-            mail@mail.com
-          </span>
+          <p>Todos os direitos reservados</p>
+          <h3>Bluebird©</h3>
         </div>
+        
 
       </footer>
     </div>

@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import './Navbar.css';
+import './navbar.css';
 import logo from '../../img/logo.webp';
 
 

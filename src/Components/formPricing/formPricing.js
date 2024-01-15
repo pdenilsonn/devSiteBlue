@@ -9,7 +9,7 @@ function FormPricing() {
             </div>
             <div className="formContainer">
                 <div className="formContent">
-                    <h2>Peça já um orçamento<br></br> para seu projeto!</h2>
+                    <h2>Peça já um orçamento para seu projeto!</h2>
                     <h3>Receba uma proposta ainda hoje.</h3>
                     <p>- Comprometimento total com seu prazo.</p>
                     <p>- Qualidade profissional garantida.</p>

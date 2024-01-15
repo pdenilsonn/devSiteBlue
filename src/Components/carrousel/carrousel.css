@@ -1,0 +1,34 @@
+.containerSd{
+    width: 90%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slide-item {
+    border-radius: 1rem;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #5AA0F2 !important;
+}
+
+@media only screen and (min-width: 769px) {
+    .containerSd{
+        
+        max-width: 570px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slide-item {
+        
+        height: 250px;
+        
+        
+    }
+}

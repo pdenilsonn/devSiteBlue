@@ -1,5 +1,5 @@
-import './Clients.css';
-import clients from '../imgClients';
+import './clients.css';
+import clients from './imgClients';
 
 function Clients() {
 

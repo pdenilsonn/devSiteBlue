@@ -1,8 +1,46 @@
+.blocoStudio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 960px;
+    color: white;
+    
+    font-weight: 400;
+
+
+    margin: 0 auto;
+
+    gap: 1.75rem;
+}
+
 
 
 iframe {
-    width: 90vw;
-    height: 50vw;
-    max-width: 720px;
-    max-height: 420px;
+    width: 450px;
+    height: 253px;
+    max-width: 960px;
+
+
+    border-radius: 1rem;
+
+}
+
+@media only screen and (min-width: 769px) {
+    .blocoStudio h3 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .blocoStudio p {
+        font-size: 1.2rem;
+    }
+
+
+    iframe {
+        width: 560px;
+        height: 350px;
+
+
+    }
 }

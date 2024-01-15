@@ -1,5 +1,5 @@
-import './Dubbing.css'
-import imgDubbing from "../imgDubbing"
+import './dubbing.css'
+import imgDubbing from "./imgDubbing"
 
 function Dubbing() {
     return (
@@ -19,7 +19,7 @@ function Dubbing() {
                         ))}
                         
                     </div>
-                    <a href=''>
+                    <a href='https://google.com'>
                     <button className='btnDubbing'>Ver mais</button>
                     </a>
                             
