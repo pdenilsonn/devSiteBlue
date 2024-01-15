@@ -1,10 +1,22 @@
 {
   "files": {
-    "main.css": "/devSiteBlue/static/css/main.d76db5d6.css",
-    "main.js": "/devSiteBlue/static/js/main.468975b6.js",
+    "main.css": "/devSiteBlue/static/css/main.f603a1bf.css",
+    "main.js": "/devSiteBlue/static/js/main.5d8f1ed2.js",
     "static/media/capaPrey.jpeg": "/devSiteBlue/static/media/capaPrey.8bab325b502193b886f6.jpeg",
+    "static/media/capaFirstRefor.jpg": "/devSiteBlue/static/media/capaFirstRefor.1ad7437c70a14c048c80.jpg",
     "static/media/homepageBackground.webp": "/devSiteBlue/static/media/homepageBackground.8b23ad47478ccc94d3a7.webp",
+    "static/media/imgStudio08.jpg": "/devSiteBlue/static/media/imgStudio08.e9d244750febaf92935c.jpg",
+    "static/media/imgStudio01.jpg": "/devSiteBlue/static/media/imgStudio01.74e1cf846b6fb7fa231c.jpg",
+    "static/media/imgStudio02.jpg": "/devSiteBlue/static/media/imgStudio02.6ef63be2309ce39e0c2c.jpg",
+    "static/media/imgStudio03.jpg": "/devSiteBlue/static/media/imgStudio03.feb928d10fc700bc28c0.jpg",
+    "static/media/imgStudio06.jpg": "/devSiteBlue/static/media/imgStudio06.48ca096abb3edafdcd30.jpg",
+    "static/media/imgStudio05.jpg": "/devSiteBlue/static/media/imgStudio05.74e873f65ac6def5b26b.jpg",
+    "static/media/imgStudio04.jpg": "/devSiteBlue/static/media/imgStudio04.4d1b6971a5069e9ece5f.jpg",
+    "static/media/capaTrust.jpg": "/devSiteBlue/static/media/capaTrust.08a1ad7828530470db2d.jpg",
+    "static/media/imgStudio07.jpg": "/devSiteBlue/static/media/imgStudio07.3d0b0c87edb31e1d17c9.jpg",
     "static/media/capaPose.jpg": "/devSiteBlue/static/media/capaPose.bb3721564e5926e178a8.jpg",
+    "static/media/capaTheLastMan.jpg": "/devSiteBlue/static/media/capaTheLastMan.f8a99b40fbfd0a1b8664.jpg",
+    "static/media/capamayans.jpg": "/devSiteBlue/static/media/capamayans.a1a16da8c2d1376244f6.jpg",
     "static/media/capaGoodBurder.jpg": "/devSiteBlue/static/media/capaGoodBurder.ca1c8d8fde21329e3eda.jpg",
     "static/media/capaWWDITS.jpg": "/devSiteBlue/static/media/capaWWDITS.df5372cc29e428e15f87.jpg",
     "static/media/capaAtlanta.jpg": "/devSiteBlue/static/media/capaAtlanta.0cdd33a43b3caf8f1178.jpg",
@@ -21,11 +33,11 @@
     "static/media/logoFilmerise.webp": "/devSiteBlue/static/media/logoFilmerise.2a0d8f2b841c2ce12a3c.webp",
     "static/media/logoMTV.webp": "/devSiteBlue/static/media/logoMTV.5da835cb8b1310ab20f8.webp",
     "index.html": "/devSiteBlue/index.html",
-    "main.d76db5d6.css.map": "/devSiteBlue/static/css/main.d76db5d6.css.map",
-    "main.468975b6.js.map": "/devSiteBlue/static/js/main.468975b6.js.map"
+    "main.f603a1bf.css.map": "/devSiteBlue/static/css/main.f603a1bf.css.map",
+    "main.5d8f1ed2.js.map": "/devSiteBlue/static/js/main.5d8f1ed2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d76db5d6.css",
-    "static/js/main.468975b6.js"
+    "static/css/main.f603a1bf.css",
+    "static/js/main.5d8f1ed2.js"
   ]
 }
