@@ -23,10 +23,6 @@
 
 }
 
-.formContent h2 {
-    font-size: 1.5rem;
-}
-
 
 /* estiliar tudo o forulario */
 .form {
@@ -36,29 +32,26 @@
     display: flex;
     flex-direction: column;
 
-    
+    font-size: 0.85rem;
     border-radius: 1rem;
     padding: 2rem;
     gap: 1rem;
 }
 
-.form .line {
-    border-bottom: 1rem solid #5AA0F2;
-    
+.form .title {
+    font-size: 1rem;
 }
 
-
-
-/* estilizar os campos em "sobre o você" */
+/* estilizar os campos em "sobre você" */
 fieldset {
     display: flex;
     flex-direction: column;
     border: 0;
     gap: 0.5rem;
+
 }
 
 fieldset input {
-    font-size: 1rem;
     margin-right: 0.5rem;
     padding: 0.2rem;
     border: 0;
@@ -67,7 +60,8 @@ fieldset input {
 
 fieldset input::placeholder {
     opacity: 50%;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
+    
 }
 
 fieldset input:focus {
@@ -85,11 +79,15 @@ fieldset input:focus {
     gap: 0.5rem;
 }
 
+
 .campo label {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 0.5rem;
+    
 }
+
 
 .campo input[type="checkbox"],
 input[type="radio"] {
@@ -100,6 +98,7 @@ input[type="radio"] {
     height: 1.3rem;
     border-radius: 1rem;
     margin-right: 0.5rem;
+    
 }
 
 .campo input[type="checkbox"]:checked,
@@ -116,6 +115,7 @@ textarea {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 textarea::placeholder {
@@ -133,12 +133,12 @@ textarea:focus {
 .form button {
     padding: 0.5rem;
     width: 10rem;
-
+    margin: 0 auto;
 
     background-color: #5AA0F2;
     font-weight: 500;
     color: white;
-    font-size: 1.2rem;
+    
 
     border: none;
     border-radius: 12rem;
@@ -158,12 +158,16 @@ textarea:focus {
 
     /* estiliar tudo o forulario */
     .form {
-        max-width: 450px;
+        margin-left: auto;
+        margin-left: auto;
+        max-width: 390px;
+        column-gap: 1rem;
+        padding: 1rem;
 
     }
 
     .form .title {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
 
@@ -171,24 +175,25 @@ textarea:focus {
     fieldset {
         flex-direction: row;
         flex-wrap: wrap;
+        column-gap: 1rem;
+        row-gap: 0.5rem;
+        
     }
 
 
     /* estilizando os campos sobre o "projeto" e "serviço" */
     .campo .options {
         display: flex;
-        justify-content: center;
-        gap: 1rem;
+        justify-content: left;
         flex-direction: row;
         flex-wrap: wrap;
+       column-gap: 0.5rem;
         
     }
 
     .campo label {
-        margin-top: 1rem;
-        
+        row-gap: 0.5rem;
     }
-
 
 
     /* estilizar titulo e subtilo do container */
@@ -208,4 +213,6 @@ textarea:focus {
         margin-left: auto;
         margin-right: auto;
     }
+
+    
 }

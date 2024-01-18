@@ -29,6 +29,7 @@ function ButtonTop() {
             backgroundColor: "#ffff",
             position: "fixed",
             cursor: 'pointer',
+            zIndex: 1000,
             borderRadius: "20rem",
             border: "none",
             boxShadow: "1px 1px 8px #5AA0F2",

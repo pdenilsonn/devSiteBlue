@@ -1,7 +1,5 @@
 import './App.css';
 
-
-
 import ButtonTop from './Components/buttonTop';
 import Navbar from './Components/menuBar/navbar';
 import Services from './Components/services/services';
@@ -69,12 +67,22 @@ function App() {
       */}
 
       <footer>
-        <div className='container'>
+        
+        <div className='fcontainer'>
+          <a target="_blank" href="https://www.instagram.com.nr/bluebirdaudio"><i class="fa-brands fa-instagram icone"></i></a>
+          <a href="mailto:sergio.nogueira@bluebirdaudiovisual.com.br"><i class="fa-regular fa-envelope icone"></i></a>
+        </div>
+        <div className='fcontainer'>
+        
+          <p>Avenida Glaúcio Gil, 978<br></br>
+          Recreio dos Bandeirantes<br></br>
+          Rio de Janeiro/RJ - CEP 22765820
+          </p>
+        </div>
+        <div className='fcontainer'>
           <p>Todos os direitos reservados</p>
           <h3>Bluebird©</h3>
         </div>
-        
-
       </footer>
     </div>
   );

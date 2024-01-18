@@ -16,7 +16,7 @@ function FormPricing() {
                     <p>- Melhor preço do mercado.</p>
                 </div>
 
-                <form className="form">
+                <form className="form" onSubmit={() => {}}>
 
                         <div>
                             <label className="title"><strong>Sobre você</strong></label>
@@ -37,7 +37,7 @@ function FormPricing() {
                         </div>
                         <div>
                             <label for="text">Nome da Empresa</label><br></br>
-                            <input placeholder="Nome da Empresa" type="text" id="email" name="email" />
+                            <input placeholder="Nome da Empresa" type="text" id="busName" name="busName" />
                         </div>
                         <div>
                             <label for="tel">Telefone</label><br></br>
@@ -52,16 +52,16 @@ function FormPricing() {
                         </div>
                         <div className="options">
                             <label for="series">
-                                <input type="radio" id="dublagem" name="project" value="dublagem" />Séires
+                                <input type="radio" id="series" name="project" value="series" />Séries
                             </label>
                             <label for="longas">
-                                <input type="radio" id="audioDescrição" name="project" value="audioDescrição" />Longa
+                                <input type="radio" id="longa" name="project" value="longa" />Longa
                             </label>
                             <label for="musica">
-                                <input type="radio" id="tradução" name="project" value="tradução" />Música
+                                <input type="radio" id="musica" name="project" value="musica" />Música
                             </label>
                             <label for="textos">
-                                <input type="radio" id="trilhaSonora" name="project" value="trilhaSonora" />Textos
+                                <input type="radio" id="textos" name="project" value="textos" />Textos
                             </label>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ function FormPricing() {
 
                     <div>
                         <label className="title"><strong>Alguma observação sobre seu projeto...</strong></label>
-                        <textarea placeholder="caso precise, escreva algo que seja importante sobre seu projeto" row="5"></textarea>
+                        <textarea id="textarea" placeholder="Caso precise, escreva algo que seja importante ressaltar sobre seu projeto." row="5"></textarea>
                     </div>
 
                     <button type="submit"> Enviar </button>
