@@ -36,15 +36,16 @@
     display: flex;
     flex-direction: column;
 
-    
+
     border-radius: 1rem;
     padding: 2rem;
     gap: 1rem;
 }
 
-.form .line {
-    border-bottom: 1rem solid #5AA0F2;
+.form .underline {
+    border-bottom: 2px solid #5AA0F2;
     
+    margin-bottom: 0.5rem;
 }
 
 
@@ -82,7 +83,7 @@ fieldset input:focus {
     display: flex;
     flex-direction: column;
 
-    gap: 0.5rem;
+
 }
 
 .campo label {
@@ -163,9 +164,15 @@ textarea:focus {
     }
 
     .form .title {
+        margin-top: 0.5rem;
         font-size: 1.2rem;
     }
 
+    .form .underline {
+        border-bottom: 2px solid #5AA0F2;
+        
+        margin-bottom: 0.5rem;
+    }
 
     /* estilizar os campos em "sobre o você" */
     fieldset {
@@ -177,17 +184,14 @@ textarea:focus {
     /* estilizando os campos sobre o "projeto" e "serviço" */
     .campo .options {
         display: flex;
-        justify-content: center;
-        gap: 1rem;
+        justify-content: left;
+        row-gap: 1rem;
+        column-gap: 0.5rem;
         flex-direction: row;
         flex-wrap: wrap;
-        
+
     }
 
-    .campo label {
-        margin-top: 1rem;
-        
-    }
 
 
 
