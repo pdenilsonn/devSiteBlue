@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/devSiteBlue/static/css/main.9710c040.css",
-    "main.js": "/devSiteBlue/static/js/main.6c316311.js",
+    "main.js": "/devSiteBlue/static/js/main.039b6ee2.js",
     "static/media/capaPrey.jpeg": "/devSiteBlue/static/media/capaPrey.8bab325b502193b886f6.jpeg",
     "static/media/capaFirstRefor.jpg": "/devSiteBlue/static/media/capaFirstRefor.1ad7437c70a14c048c80.jpg",
     "static/media/homepageBackground.webp": "/devSiteBlue/static/media/homepageBackground.8b23ad47478ccc94d3a7.webp",
@@ -34,10 +34,10 @@
     "static/media/logoMTV.webp": "/devSiteBlue/static/media/logoMTV.5da835cb8b1310ab20f8.webp",
     "index.html": "/devSiteBlue/index.html",
     "main.9710c040.css.map": "/devSiteBlue/static/css/main.9710c040.css.map",
-    "main.6c316311.js.map": "/devSiteBlue/static/js/main.6c316311.js.map"
+    "main.039b6ee2.js.map": "/devSiteBlue/static/js/main.039b6ee2.js.map"
   },
   "entrypoints": [
     "static/css/main.9710c040.css",
-    "static/js/main.6c316311.js"
+    "static/js/main.039b6ee2.js"
   ]
 }
