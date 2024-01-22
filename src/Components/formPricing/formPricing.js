@@ -53,6 +53,8 @@ function FormPricing() {
                 setCheckboxes([])
                 
                 setAbout('')
+            }, (err) => {
+                console.log("erro", err )
             })
     }
 
