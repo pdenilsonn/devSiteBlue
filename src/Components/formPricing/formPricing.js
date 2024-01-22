@@ -238,9 +238,7 @@ function FormPricing() {
                                     onChange={() => handleCheckboxChange("Trilha Sonora")}
                                     value="Trilha Sonora" />Trilha Sonora
                             </label>
-
-                            <h1> {checkboxes.join(', ')}</h1>
-
+                        
                         </div>
                     </div>
 
