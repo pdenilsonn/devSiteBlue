@@ -28,14 +28,16 @@ class Navbar extends Component {
                                 <a href="#dubbing"> Dublagem </a>
                             </li>
                             <li>
-                                <a href="#sobreNos"> Sobre Nós </a>
+                                <a href="#estudios"> Nossos Estúdios </a>
                             </li>
                             <li>
                                 <a href="#pricing"> Orçamentos </a>
                             </li>
                             <li>
-                                <a href="#estudios"> Nossos Estúdios </a>
+                                <a href="#sobreNos"> Sobre Nós </a>
                             </li>
+                            
+                            
                         </ul>
                     </div>
 

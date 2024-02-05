@@ -6,7 +6,7 @@ function Studios() {
         <>
             <div className='container' id='estudios'>
                 <div className='gTitles'>
-                    <h3 className="titles">Nosso Estúdio</h3>
+                    <h3 className="titles">Nossos Estúdios</h3>
                     <p className="line"></p>
                 </div>
                 <div className='blocoStudio'>
