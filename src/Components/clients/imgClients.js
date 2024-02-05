@@ -4,11 +4,8 @@ import logoFilmerise from "../../img/logoClients/logoFilmerise.webp"
 import logoMTV from "../../img/logoClients/logoMTV.webp"
 import logoNickelodeon from "../../img/logoClients/logoNickelodeon.webp"
 import logoEpicg from "../../img/logoClients/logoEpicG.webp"
-import logoGazeta from "../../img/logoClients/logoGazeta.webp"
 import logoRiot from "../../img/logoClients/logoRiot.webp"
-import logoTvBrasil from "../../img/logoClients/logoTvBrasil.webp"
-import logoMicrosoftSt from "../../img/logoClients/logoMicrosoftSt.webp"
-import logoGloob from "../../img/logoClients/logoGloob.webp"
+
 
 
 const clientes = [
@@ -54,31 +51,10 @@ const clientes = [
         alt: "logo Riot",
         img: logoRiot
     },
-    {
-        id: 8,
-        nome: "Tv Brasil",
-        alt: "logo TV Brasil",
-        img: logoTvBrasil
-    },
-    {
-        id: 9,
-        nome: "Gloob",
-        alt: "logo Gloob",
-        img: logoGloob
-    },
-    {
-        id: 10,
-        nome: "Gazeta",
-        alt: "logo Gazeta",
-        img: logoGazeta
-    },
     
-    {
-        id: 11,
-        nome: "Microsoft Studios",
-        alt: "logo Microsoft Studios",
-        img: logoMicrosoftSt
-    }
+    
+    
+    
     
 ]
 
