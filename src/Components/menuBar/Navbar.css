@@ -4,7 +4,6 @@ nav {
     align-items: center;
     justify-content: space-around;
     
-    
     z-index: 1000;
     width: 100%;
     
@@ -37,8 +36,6 @@ nav {
     
     font-weight: 500;
     transition: 0.3s;
-
-    
     
 }
 
@@ -60,10 +57,11 @@ nav {
 }
 
 img {
-    height: 1.2rem;
+    height: 1.5rem;
    
 }
 
+/* --- Screen Mobile --- */
 
 @media screen and (max-width:769px) {
     nav {
@@ -74,6 +72,13 @@ img {
         
         
     }
+
+    img {
+        height: 1.4rem;
+       
+    }
+
+
     #navbar {
         display: flex;
         align-items: center;

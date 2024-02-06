@@ -22,14 +22,7 @@ function Clients() {
 
                     </div>
 
-                    <div>
-                        <p>Além disso, a BlueBird já desenvolveu e ainda desenvolve milhares de trilhas sonoras para as principais emissoras brasileiras como: Rede Globo, SBT, RECORD e GAZETA!</p>
-
-                        <div className='logoClient'>
-
-                        </div>
-
-                    </div>
+                   
                 </div>
             </div>
 

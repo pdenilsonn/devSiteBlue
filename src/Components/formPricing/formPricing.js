@@ -11,8 +11,9 @@ function FormPricing() {
     const [tel, setTel] = useState('')
     const [project, setProject] = useState('')
     const [about, setAbout] = useState('')
-
     const [checkboxes, setCheckboxes] = useState([]);
+    
+
     const handleCheckboxChange = (value) => {
         // Verifica se o valor já está no array
         if (checkboxes.includes(value)) {
@@ -51,10 +52,10 @@ function FormPricing() {
                 setTel('')
                 setProject('')
                 setCheckboxes([])
-                
+
                 setAbout('')
             }, (err) => {
-                console.log("erro", err )
+                console.log("erro", err)
             })
     }
 
@@ -239,7 +240,60 @@ function FormPricing() {
                                     value="Trilha Sonora" />Trilha Sonora
                             </label>
 
-                            <h1> {checkboxes.join(', ')}</h1>
+
+
+                        </div>
+                    </div>
+
+                    <div className="campo">
+                        <div>
+                            <label className="title"><strong>Qual será o tipo da midia?</strong></label>
+                            <p className="underline"></p>
+
+                        </div>
+                        <div className="options">
+
+                            <label for="streaming">
+                                <input
+                                    type="checkbox"
+                                    id="streaming"
+                                    name="type"
+                                    checked={checkboxes.includes("Streaming")}
+                                    onChange={() => handleCheckboxChange("Streaming")}
+                                    value="Streaming" />Streaming
+                            </label>
+
+                            <label for="youTube">
+                                <input
+                                    type="checkbox"
+                                    id="youTube"
+                                    name="type"
+                                    checked={checkboxes.includes("You Tube")}
+                                    onChange={() => handleCheckboxChange("You Tube")}
+                                    value="You Tube" />You Tube
+                            </label>
+
+                            <label for="redesSociais">
+                                <input
+                                    type="checkbox"
+                                    id="redesSociais"
+                                    name="type"
+                                    checked={checkboxes.includes("Redes Sociais")}
+                                    onChange={() => handleCheckboxChange("Redes Sociais")}
+                                    value="Redes Sociais" />Redes Sociais
+                            </label>
+
+                            <label for="linear">
+                                <input
+                                    type="checkbox"
+                                    id="linear"
+                                    name="type"
+                                    checked={checkboxes.includes("Linear")}
+                                    onChange={() => handleCheckboxChange("Linear")}
+                                    value="Linear" />Linear
+                            </label>
+
+
 
                         </div>
                     </div>

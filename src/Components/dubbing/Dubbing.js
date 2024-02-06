@@ -17,12 +17,12 @@ function Dubbing() {
                                 <img key={item.id} src={item.img} alt={item.alt} />
                             </div>
                         ))}
-                        
+
                     </div>
-                    <a href='https://google.com'>
-                    <button className='btnDubbing'>Ver mais</button>
-                    </a>
-                            
+                    <Link to="/dublagens">
+                        <button className='btnDubbing'>Ver mais</button>
+                    </Link>
+
 
                 </div>
             </div>
