@@ -4,29 +4,44 @@ import emailjs from '@emailjs/browser'
 
 
 function FormPricing() {
-    const [fname, setFname] = useState('')
-    const [lname, setLname] = useState('')
-    const [email, setEmail] = useState('')
-    const [busName, setBusName] = useState('')
-    const [tel, setTel] = useState('')
-    const [project, setProject] = useState('')
-    const [about, setAbout] = useState('')
-    const [checkboxes, setCheckboxes] = useState([]);
+    const [fname, setFname] = useState('');
+    const [lname, setLname] = useState('');
+    const [email, setEmail] = useState('');
+    const [busName, setBusName] = useState('');
+    const [tel, setTel] = useState('');
+    const [project, setProject] = useState('');
+    const [checkboxesProject, setCheckboxesProject] = useState([]);
+    const [checkboxesMidia, setCheckboxesMedia] = useState([]);
+    const [about, setAbout] = useState('');
     
 
-    const handleCheckboxChange = (value) => {
+    // agrupar em array Tipos de Seriços
+    const handleCheckboxProjectChange = (value) => {
         // Verifica se o valor já está no array
-        if (checkboxes.includes(value)) {
+        if (checkboxesProject.includes(value)) {
             // Se estiver, remove o valor
-            setCheckboxes(checkboxes.filter((item) => item !== value));
+            setCheckboxesProject(checkboxesProject.filter((item) => item !== value));
         } else {
             // Se não estiver, adiciona o valor
-            setCheckboxes([...checkboxes, value]);
+            setCheckboxesProject([...checkboxesProject, value]);
+        }
+    }
+
+    // agrupar em array escolhas de Tipos de Midia
+    const handleCheckboxMediaChange = (value) => {
+        // Verifica se o valor já está no array
+        if (checkboxesMidia.includes(value)) {
+            // Se estiver, remove o valor
+            setCheckboxesMedia(checkboxesMidia.filter((item) => item !== value));
+        } else {
+            // Se não estiver, adiciona o valor
+            setCheckboxesMedia([...checkboxesMidia, value]);
         }
     }
 
 
 
+    // mecanismo de envio do formulário para API mail.js
     function sendEmail(e) {
         e.preventDefault();
 
@@ -38,7 +53,8 @@ function FormPricing() {
             bus_name: busName,
             tel: tel,
             project: project,
-            service: checkboxes,
+            service: checkboxesProject,
+            media: checkboxesMidia,
             message: about,
         }
 
@@ -51,8 +67,8 @@ function FormPricing() {
                 setBusName('')
                 setTel('')
                 setProject('')
-                setCheckboxes([])
-
+                setCheckboxesProject([])
+                setCheckboxesMedia([])
                 setAbout('')
             }, (err) => {
                 console.log("erro", err)
@@ -205,8 +221,8 @@ function FormPricing() {
                                     type="checkbox"
                                     id="dublagem"
                                     name="service"
-                                    checked={checkboxes.includes("Dublagem")}
-                                    onChange={() => handleCheckboxChange("Dublagem")}
+                                    checked={checkboxesProject.includes("Dublagem")}
+                                    onChange={() => handleCheckboxProjectChange("Dublagem")}
                                     value="Dublagem" />Dublagem
                             </label>
 
@@ -215,8 +231,8 @@ function FormPricing() {
                                     type="checkbox"
                                     id="audiodescricao"
                                     name="service"
-                                    checked={checkboxes.includes("Audio Descrição")}
-                                    onChange={() => handleCheckboxChange("Audio Descrição")}
+                                    checked={checkboxesProject.includes("Audio Descrição")}
+                                    onChange={() => handleCheckboxProjectChange("Audio Descrição")}
                                     value="Audio Descrição" />Audio Descrição
                             </label>
 
@@ -225,18 +241,18 @@ function FormPricing() {
                                     type="checkbox"
                                     id="traducao"
                                     name="service"
-                                    checked={checkboxes.includes("Tradução")}
-                                    onChange={() => handleCheckboxChange("Tradução")}
+                                    checked={checkboxesProject.includes("Tradução")}
+                                    onChange={() => handleCheckboxProjectChange("Tradução")}
                                     value="Tradução" />Tradução
                             </label>
 
-                            <label>
+                            <label for="trilhaSonora">
                                 <input
                                     type="checkbox"
                                     id="trilhaSonora"
                                     name="service"
-                                    checked={checkboxes.includes("Trilha Sonora")}
-                                    onChange={() => handleCheckboxChange("Trilha Sonora")}
+                                    checked={checkboxesProject.includes("Trilha Sonora")}
+                                    onChange={() => handleCheckboxProjectChange("Trilha Sonora")}
                                     value="Trilha Sonora" />Trilha Sonora
                             </label>
 
@@ -257,9 +273,9 @@ function FormPricing() {
                                 <input
                                     type="checkbox"
                                     id="streaming"
-                                    name="type"
-                                    checked={checkboxes.includes("Streaming")}
-                                    onChange={() => handleCheckboxChange("Streaming")}
+                                    name="midia"
+                                    checked={checkboxesMidia.includes("Streaming")}
+                                    onChange={() => handleCheckboxMediaChange("Streaming")}
                                     value="Streaming" />Streaming
                             </label>
 
@@ -267,19 +283,19 @@ function FormPricing() {
                                 <input
                                     type="checkbox"
                                     id="youTube"
-                                    name="type"
-                                    checked={checkboxes.includes("You Tube")}
-                                    onChange={() => handleCheckboxChange("You Tube")}
-                                    value="You Tube" />You Tube
+                                    name="midia"
+                                    checked={checkboxesMidia.includes("You Tube")}
+                                    onChange={() => handleCheckboxMediaChange("You Tube")}
+                                    value="You Tube" />YouTube
                             </label>
 
                             <label for="redesSociais">
                                 <input
                                     type="checkbox"
                                     id="redesSociais"
-                                    name="type"
-                                    checked={checkboxes.includes("Redes Sociais")}
-                                    onChange={() => handleCheckboxChange("Redes Sociais")}
+                                    name="midia"
+                                    checked={checkboxesMidia.includes("Redes Sociais")}
+                                    onChange={() => handleCheckboxMediaChange("Redes Sociais")}
                                     value="Redes Sociais" />Redes Sociais
                             </label>
 
@@ -287,9 +303,9 @@ function FormPricing() {
                                 <input
                                     type="checkbox"
                                     id="linear"
-                                    name="type"
-                                    checked={checkboxes.includes("Linear")}
-                                    onChange={() => handleCheckboxChange("Linear")}
+                                    name="midia"
+                                    checked={checkboxesMidia.includes("Linear")}
+                                    onChange={() => handleCheckboxMediaChange("Linear")}
                                     value="Linear" />Linear
                             </label>
 

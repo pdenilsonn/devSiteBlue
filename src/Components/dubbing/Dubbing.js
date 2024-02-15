@@ -19,9 +19,9 @@ function Dubbing() {
                         ))}
 
                     </div>
-                    <Link to="/dublagens">
+                    
                         <button className='btnDubbing'>Ver mais</button>
-                    </Link>
+                    
 
 
                 </div>
