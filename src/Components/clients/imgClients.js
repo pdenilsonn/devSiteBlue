@@ -5,6 +5,8 @@ import logoMTV from "../../img/logoClients/logoMTV.webp"
 import logoNickelodeon from "../../img/logoClients/logoNickelodeon.webp"
 import logoEpicg from "../../img/logoClients/logoEpicG.webp"
 import logoRiot from "../../img/logoClients/logoRiot.webp"
+import logoBTI from "../../img/logoClients/logoBTI.webp"
+import logoBeliane from "../../img/logoClients/logoBeliane.webp"
 
 
 
@@ -50,6 +52,18 @@ const clientes = [
         nome: "Riot",
         alt: "logo Riot",
         img: logoRiot
+    },
+    {
+        id: 8,
+        nome: "BTI",
+        alt: "logo BTI Studios",
+        img: logoBTI
+    },
+    {
+        id: 9,
+        nome: "Beliane",
+        alt: "logo Beliane",
+        img: logoBeliane
     },
     
     
