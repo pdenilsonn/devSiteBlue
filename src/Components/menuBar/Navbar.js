@@ -4,6 +4,7 @@ import logo from '../../img/logo.webp';
 
 
 
+
 class Navbar extends Component {
     state = { clicked: false };
     handleClick = () => {
@@ -19,22 +20,22 @@ class Navbar extends Component {
                     <div>
                         <ul id='navbar' className={this.state.clicked ? "#navbar active" : "#navbar"}>
                             <li>
-                                <a href="#servicos"> Serviços </a>
+                                <a href="#servicos"> Services </a>
                             </li>
                             <li>
-                                <a href="#clientes"> Clientes </a>
+                                <a href="#clientes"> Clients </a>
                             </li>
                             <li>
-                                <a href="#dubbing"> Dublagem </a>
+                                <a href="#dubbing"> Dubbing </a>
                             </li>
                             <li>
-                                <a href="#estudios"> Nossos Estúdios </a>
+                                <a href="#estudios"> Studio </a>
                             </li>
                             <li>
-                                <a href="#pricing"> Orçamentos </a>
+                                <a href="#pricing"> Request Quote </a>
                             </li>
                             <li>
-                                <a href="#sobreNos"> Sobre Nós </a>
+                                <a href="#sobreNos"> About Us </a>
                             </li>
                             
                             

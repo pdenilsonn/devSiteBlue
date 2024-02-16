@@ -5,7 +5,6 @@ import capaGoodBurger from "../../img/productions/capaGoodBurder.jpg"
 import capaAtlanta from "../../img/productions/capaAtlanta.jpg"
 import capaPose from "../../img/productions/capaPose.jpg"
 import capaTrust from "../../img/productions/capaTrust.jpg"
-import capaTheLastMan from "../../img/productions/capaTheLastMan.jpg"
 import capaMayans from "../../img/productions/capamayans.jpg"
 import capaFirstRefor from "../../img/productions/capaFirstRefor.jpg"
 
@@ -53,12 +52,7 @@ const imgDubbing = [
         alt: "poster Trust",
         img: capaTrust,
     },
-    {
-        id: 8,
-        name: "The Last Man On Earth",
-        alt: "poster The Last Man On Earth",
-        img: capaTheLastMan,
-    },
+    
     {
         id: 9,
         name: "Mayans",

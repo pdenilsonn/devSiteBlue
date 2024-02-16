@@ -85,23 +85,23 @@ function FormPricing() {
             </div>
             <div className="formContainer">
                 <div className="formContent">
-                    <h2>Peça já um orçamento para seu projeto!</h2>
-                    <h3>Receba uma proposta ainda hoje.</h3>
-                    <p>- Comprometimento total com seu prazo.</p>
-                    <p>- Qualidade profissional garantida.</p>
-                    <p>- Melhor preço do mercado.</p>
+                    <h2>Request a quote for your project now!</h2>
+                    <h3>Receive a proposal today.</h3>
+                    <p>- Total commitment to your deadline.</p>
+                    <p>- Professional quality guaranteed.</p>
+                    <p>- Best price in the market.</p>
                 </div>
 
                 <form className="form" onSubmit={sendEmail}>
 
                     <div>
-                        <label className="title"><strong>Sobre você</strong></label>
+                        <label className="title"><strong>About you</strong></label>
                         <p className="underline"></p>
                     </div>
 
                     <fieldset>
                         <div>
-                            <label for="fname">Nome</label><br></br>
+                            <label for="fname">Name</label><br></br>
                             <input
                                 placeholder="Nome"
                                 type="text"
@@ -112,7 +112,7 @@ function FormPricing() {
                                 required />
                         </div>
                         <div>
-                            <label for="lname">Sobrenome</label><br></br>
+                            <label for="lname">Surname</label><br></br>
                             <input
                                 placeholder="Sobrenome"
                                 type="text"
@@ -124,7 +124,7 @@ function FormPricing() {
                         </div>
 
                         <div>
-                            <label for="email">Seu e-mail</label><br></br>
+                            <label for="email">email</label><br></br>
                             <input
                                 placeholder="E-mail"
                                 type="email"
@@ -136,7 +136,7 @@ function FormPricing() {
                         </div>
 
                         <div>
-                            <label for="text">Nome da Empresa</label><br></br>
+                            <label for="text">Business Name</label><br></br>
                             <input
                                 placeholder="Nome da Empresa"
                                 type="text"
@@ -147,9 +147,9 @@ function FormPricing() {
                         </div>
 
                         <div>
-                            <label for="tel">Telefone</label><br></br>
+                            <label for="tel">Telephone</label><br></br>
                             <input
-                                placeholder="(00)00000-0000"
+                                placeholder="+00(00)00000-0000"
                                 type="tel"
                                 id="tel"
                                 name="tel"
@@ -162,7 +162,7 @@ function FormPricing() {
                     <div className="campo">
 
                         <div>
-                            <label className="title"><strong>Qual o tipo do seu projeto?</strong></label>
+                            <label className="title"><strong>What type of project are you working on?</strong></label>
                             <p className="underline"></p>
                         </div>
 
@@ -174,7 +174,7 @@ function FormPricing() {
                                     id="series"
                                     name="project"
                                     onChange={(e) => setProject(e.target.value)}
-                                    value="Serie" />Série
+                                    value="Serie" />Tv Shows
                             </label>
 
                             <label for="longas">
@@ -183,7 +183,7 @@ function FormPricing() {
                                     id="longa"
                                     name="project"
                                     onChange={(e) => setProject(e.target.value)}
-                                    value="Longa" />Longa
+                                    value="Longa" />Movie
                             </label>
 
                             <label for="musica">
@@ -192,7 +192,7 @@ function FormPricing() {
                                     id="musica"
                                     name="project"
                                     onChange={(e) => setProject(e.target.value)}
-                                    value="Musica" />Música
+                                    value="Musica" />Music
                             </label>
 
                             <label for="textos">
@@ -201,7 +201,7 @@ function FormPricing() {
                                     id="textos"
                                     name="project"
                                     onChange={(e) => setProject(e.target.value)}
-                                    value="Textos" />Textos
+                                    value="Textos" />Texts
                             </label>
 
 
@@ -210,7 +210,7 @@ function FormPricing() {
 
                     <div className="campo">
                         <div>
-                            <label className="title"><strong>Qual o serviço você precisa?</strong></label>
+                            <label className="title"><strong>What service do you need?</strong></label>
                             <p className="underline"></p>
 
                         </div>
@@ -223,7 +223,7 @@ function FormPricing() {
                                     name="service"
                                     checked={checkboxesProject.includes("Dublagem")}
                                     onChange={() => handleCheckboxProjectChange("Dublagem")}
-                                    value="Dublagem" />Dublagem
+                                    value="Dublagem" />Dubbing
                             </label>
 
                             <label for="audioDescricao">
@@ -233,7 +233,7 @@ function FormPricing() {
                                     name="service"
                                     checked={checkboxesProject.includes("Audio Descrição")}
                                     onChange={() => handleCheckboxProjectChange("Audio Descrição")}
-                                    value="Audio Descrição" />Audio Descrição
+                                    value="Audio Descrição" />Audio Description
                             </label>
 
                             <label for="traducao">
@@ -243,7 +243,7 @@ function FormPricing() {
                                     name="service"
                                     checked={checkboxesProject.includes("Tradução")}
                                     onChange={() => handleCheckboxProjectChange("Tradução")}
-                                    value="Tradução" />Tradução
+                                    value="Tradução" />Translate
                             </label>
 
                             <label for="trilhaSonora">
@@ -253,7 +253,7 @@ function FormPricing() {
                                     name="service"
                                     checked={checkboxesProject.includes("Trilha Sonora")}
                                     onChange={() => handleCheckboxProjectChange("Trilha Sonora")}
-                                    value="Trilha Sonora" />Trilha Sonora
+                                    value="Trilha Sonora" />Soundtrack
                             </label>
 
 
@@ -263,7 +263,7 @@ function FormPricing() {
 
                     <div className="campo">
                         <div>
-                            <label className="title"><strong>Qual será o tipo da midia?</strong></label>
+                            <label className="title"><strong>What will be the type of media?</strong></label>
                             <p className="underline"></p>
 
                         </div>
@@ -296,7 +296,7 @@ function FormPricing() {
                                     name="midia"
                                     checked={checkboxesMidia.includes("Redes Sociais")}
                                     onChange={() => handleCheckboxMediaChange("Redes Sociais")}
-                                    value="Redes Sociais" />Redes Sociais
+                                    value="Redes Sociais" />Social Media
                             </label>
 
                             <label for="linear">
@@ -315,7 +315,7 @@ function FormPricing() {
                     </div>
 
                     <div>
-                        <label className="title"><strong>Alguma observação sobre seu projeto...</strong></label>
+                        <label className="title"><strong>Any notes about your project...</strong></label>
                         <p className="underline"></p>
                         <textarea
                             placeholder="caso precise, escreva algo que seja importante sobre seu projeto"
@@ -328,7 +328,7 @@ function FormPricing() {
                     </div>
 
                     <button
-                        type="submit"> Enviar
+                        type="submit"> Send Now
                     </button>
 
 

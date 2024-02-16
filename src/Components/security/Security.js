@@ -5,7 +5,7 @@ function Security() {
         <>
             <div className="container" id="seguranca">
                 <div className='gTitles'>
-                    <h3 className="titles">Trusted Partner</h3>
+                    <h3 className="titles">Trusted Partner Network</h3>
                     <p className="line"></p>
                 </div>
                 <div className="blocoContent">
@@ -16,7 +16,7 @@ function Security() {
 
 
                         <div>
-                        <h3 className='titleSecurity'>Todo seu <span> Conteúdo Protegido</span> do início ao fim.</h3>
+                        <h3 className='titleSecurity'>All your <span> Content protected</span> from start to finish.</h3>
                         <p>
                             Levamos a proteção dos conteúdos ao mais alto nível e somos orgulhosos parceiros da Trusted Partner Network (TPN). O protocolo, baseado nas melhores práticas de segurança, nos permite manter seus conteúdos protegidos. Com a aplicação dos procedimentos e recomendações da TPN, garantimos serviços de alta qualidade mantendo a segurança física e digital em todas as etapas.</p>
                         </div>

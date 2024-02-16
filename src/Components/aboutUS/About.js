@@ -4,19 +4,22 @@ function About() {
     return (
         <div className='container' id='sobreNos'>
             <div className='gTitles'>
-                <h3 className="titles">Sobre Nós</h3>
+                <h3 className="titles">About Us</h3>
                 <p className="line"></p>
             </div>
             <div className='blocoContent' >
                 <div className='blocoabout'>
-                    <h2>
-                    Há mais de 10 anos no Mercado...
-                    </h2>
-                    <p>
-                   A BluebirdRMP é especializada em serviços de pós-produção e localização para a Indústria Cinematográfica, TV, Streaming e Games. Atualmente conta com estúdios no Rio de Janeiro e na Florida, nos Estados Unidos, criando soluções enxutas e objetivas para as mais variadas demandas do audiovisual.
-                </p>
+                    <div>
+                        <h2>
+                            More then 10 years...
+                        </h2>
+                    </div>
+                    <div>
+                        <p>Bluebird specializes in post-production and localization services for the Film, TV, Streaming, and Games industries. Currently, it has studios in Rio de Janeiro and Florida, USA, creating lean and objective solutions for a wide range of audiovisual demands.
+                        </p>
+                    </div>
                 </div>
-                
+
             </div>
         </div>
 

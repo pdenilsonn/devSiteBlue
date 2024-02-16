@@ -8,7 +8,7 @@ function Clients() {
         <>
             <div container id='clientes'>
                 <div className='gTitles'>
-                    <h3 className="titles">Clientes</h3>
+                    <h3 className="titles">Clients</h3>
                     <p className="line"></p>
                 </div>
                 {/* criar um carrossel em loop sempre ligado para ficar passando todoas as logos dos clienteas */}

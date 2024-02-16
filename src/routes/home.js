@@ -1,5 +1,3 @@
-import './App.css';
-
 import ButtonTop from './Components/buttonTop';
 import Navbar from './Components/menuBar/navbar';
 import Services from './Components/services/services';
@@ -11,14 +9,13 @@ import Pricing from './Components/formPricing/formPricing';
 import About from './Components/aboutUS/About';
 import Dublagens from './routes/dublagens/dublagens';
 
-function App() {
-  return (
+return (
     <div className="App">
       <Navbar />
       <ButtonTop />
 
       <div className="blocoHome">
-        <p> <span>Dubbed:</span> Amazing <br />as the original</p>
+        <p> <span>Dublado:</span> incrível <br />como o original</p>
 
       </div>
 
@@ -54,9 +51,3 @@ function App() {
       </footer>
     </div>  
   );
-}
-
-
-export default App;
-
-

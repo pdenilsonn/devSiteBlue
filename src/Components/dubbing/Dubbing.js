@@ -1,30 +1,42 @@
+import { useState } from 'react';
+import Dublagens from '../../routes/dublagens/dublagens';
 import './dubbing.css'
 import imgDubbing from "./imgDubbing"
 
 function Dubbing() {
+    const [show, setShow] = useState(true)
+    const [ver, setVer] = useState(true)
+    
     return (
         <>
             <div className='container' id='dubbing'>
                 <div className='gTitles'>
-                    <h3 className="titles">Dublagem</h3>
+                    <h3 className="titles">Dubbing</h3>
                     <p className="line"></p>
                 </div>
                 <div className='blocoDubbing'>
-                    <h3><span>Mais de 80 produções</span> nas principais plataformas de streaming e canais de televisão.</h3>
-                    <div className='cardContainer'>
-                        {imgDubbing.map(item => (
-                            <div className='cardImg'>
-                                <img key={item.id} src={item.img} alt={item.alt} />
-                            </div>
-                        ))}
+                    <div>
+                        <h3><span>More then 80 productions</span> on major streaming platforms and television channels.</h3>
+                    </div>
+                    <div>
+                        <div className='cardContainer'>
+                            {imgDubbing.map(item => (
+                                <div className='cardImg'>
+                                    <img key={item.id} src={item.img} alt={item.alt} />
+                                </div>
+                            ))}
+
+                        </div>
+
+                        <button type='button' className='btnDubbing' onClick={() => setShow(!show)}>See More</button>
 
                     </div>
                     
-                        <button className='btnDubbing'>Ver mais</button>
-                    
-
+                   
 
                 </div>
+                {!show && <Dublagens /> }
+                
             </div>
         </>
     )

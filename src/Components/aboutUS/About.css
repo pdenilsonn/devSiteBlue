@@ -1,7 +1,9 @@
 .blocoabout {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    row-gap: 5rem;
+    row-gap: 1rem;
+
 }
+
