@@ -51,7 +51,6 @@ function FormPricing() {
             email: email,
             tel: tel,
             bus_name: busName,
-            tel: tel,
             project: project,
             service: checkboxesProject,
             media: checkboxesMidia,

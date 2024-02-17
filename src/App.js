@@ -34,8 +34,8 @@ function App() {
       <footer>
         
         <div className='fcontainer'>
-          <a target="_blank" href="https://www.instagram.com/bluebird_audiovisual"><i class="fa-brands fa-instagram icone"></i></a>
-          <a href="mailto:sergio.nogueira@bluebirdaudiovisual.com.br"><i class="fa-regular fa-envelope icone"></i></a>
+          <a rel="noreferrer" target="_blank" href="https://www.instagram.com/bluebird_audiovisual"><i class="fa-brands fa-instagram icone"></i></a>
+          <a rel="noreferrer" href="mailto:sergio.nogueira@bluebirdaudiovisual.com.br"><i class="fa-regular fa-envelope icone"></i></a>
         </div>
         <div className='fcontainer'>
         
@@ -49,7 +49,7 @@ function App() {
           <h3>Bluebird©</h3>
         </div>
         <div>
-        © 2024 | <span><a target="_blank" href="https://behance.net/pdenilsonn">Paulo Souza</a></span>
+        © 2024 | <span><a rel="noreferrer" target="_blank" href="https://behance.net/pdenilsonn">Paulo Souza</a></span>
         </div>
       </footer>
     </div>  
