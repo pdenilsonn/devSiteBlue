@@ -1,8 +1,6 @@
 import { Component } from 'react';
-import './navbar.css';
+import './Navbar.css';
 import logo from '../../img/logo.webp';
-
-
 
 
 class Navbar extends Component {
@@ -11,14 +9,16 @@ class Navbar extends Component {
         this.setState({ clicked: !this.state.clicked })
     }
     render() {
+
+
         return (
-            <>
+            <div>
                 <nav>
                     <a href="#"> <img src={logo} />
                     </a>
 
                     <div>
-                        <ul id='navbar' className={this.state.clicked ? "#navbar active" : "#navbar"}>
+                        <ul  id='navbar' className={this.state.clicked ? "#navbar active" : "#navbar"}>
                             <li>
                                 <a href="#servicos"> Services </a>
                             </li>
@@ -37,8 +37,8 @@ class Navbar extends Component {
                             <li>
                                 <a href="#sobreNos"> About Us </a>
                             </li>
-                            
-                            
+
+
                         </ul>
                     </div>
 
@@ -50,9 +50,11 @@ class Navbar extends Component {
 
                 </nav>
 
-            </>
+            </div>
         )
+
     }
 }
+
 
 export default Navbar

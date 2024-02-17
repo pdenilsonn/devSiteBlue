@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import Dublagens from '../../routes/dublagens/dublagens';
-import './dubbing.css'
+import './Dubbing.css'
 import imgDubbing from "./imgDubbing"
 
 function Dubbing() {
     const [show, setShow] = useState(true)
-    const [ver, setVer] = useState(true)
+    
     
     return (
         <>
@@ -28,7 +28,7 @@ function Dubbing() {
 
                         </div>
 
-                        <button type='button' className='btnDubbing' onClick={() => setShow(!show)}>See More</button>
+                        <a href="#moveToCardContainer"><button type='button' className='btnDubbing' onClick={() => setShow(!show)}>See More</button></a>
 
                     </div>
                     

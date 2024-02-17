@@ -1,4 +1,4 @@
-import './security.css'
+import './Security.css'
 
 function Security() {
     return (

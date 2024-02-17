@@ -1,15 +1,15 @@
 import './App.css';
 
 import ButtonTop from './Components/buttonTop';
-import Navbar from './Components/menuBar/navbar';
-import Services from './Components/services/services';
-import Clients from './Components/clients/clients';
-import Dubbing from './Components/dubbing/dubbing';
-import Security from './Components/security/security';
-import Studios from './Components/studios/studios';
+import Navbar from './Components/menuBar/Navbar';
+import Services from './Components/services/Services';
+import Clients from './Components/clients/Clients';
+import Dubbing from './Components/dubbing/Dubbing';
+import Security from './Components/security/Security';
+import Studios from './Components/studios/Studios';
 import Pricing from './Components/formPricing/formPricing';
 import About from './Components/aboutUS/About';
-import Dublagens from './routes/dublagens/dublagens';
+
 
 function App() {
   return (

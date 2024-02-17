@@ -1,5 +1,5 @@
 import Carrousel from "../carrousel/carrousel";
-import './studios.css';
+import './Studios.css';
 
 function Studios() {
     return (
