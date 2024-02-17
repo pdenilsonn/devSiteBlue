@@ -10,15 +10,16 @@ function Security() {
                 </div>
                 <div className="blocoContent">
                     <div className="contentText">
-                        
+
                         <img alt="TPN logo" src="https://www.ttpn.org/wp-content/themes/mpaa/images/svg/tpn-nav-wtca.png" />
-                        
+
 
 
                         <div>
-                        <h3 className='titleSecurity'>All your <span> Content protected</span> from start to finish.</h3>
-                        <p>
-                            Levamos a proteção dos conteúdos ao mais alto nível e somos orgulhosos parceiros da Trusted Partner Network (TPN). O protocolo, baseado nas melhores práticas de segurança, nos permite manter seus conteúdos protegidos. Com a aplicação dos procedimentos e recomendações da TPN, garantimos serviços de alta qualidade mantendo a segurança física e digital em todas as etapas.</p>
+                            <h3 className='titleSecurity'>All your <span> Content protected</span> from start to finish.</h3>
+                            <p>
+
+                                We take content protection to the highest level and are proud partners of the Trusted Partner Network (TPN). The protocol, based on best security practices, allows us to keep your content secure. By implementing TPN's procedures and recommendations, we ensure high-quality services while maintaining physical and digital security at all stages.</p>
                         </div>
                     </div>
                     <div>

@@ -11,6 +11,7 @@
     }
 }
 
+
 .dublagens {
     margin-top: 2rem;
     display: flex;
@@ -19,6 +20,7 @@
     align-items: center;
    
     animation: transitionIn 0.85s;
+    
     
   
 }

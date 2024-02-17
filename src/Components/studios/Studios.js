@@ -6,14 +6,14 @@ function Studios() {
         <>
             <div className='container' id='estudios'>
                 <div className='gTitles'>
-                    <h3 className="titles">Nossos Estúdios</h3>
+                    <h3 className="titles">Our Studio</h3>
                     <p className="line"></p>
                 </div>
                 <div className='blocoStudio'>
 
                     <div>
-                        <h3> Conheça um pouco do nosso estúdio.</h3>
-                        <p>Equipamentos de última geração, como mesas de mixagem e softwares de edição de áudio, fundamentais para a pós-produção. Ajustes finos na sincronização e na qualidade do áudio, assegurando um produto final impecável.</p>
+                        <h3> Know a little about the studio</h3>
+                        <p>State-of-the-art equipment, such as mixing boards and audio editing software, are essential for post-production. Fine-tuning synchronization and audio quality ensure a flawless final product.</p>
                     </div>
 
                     <div>

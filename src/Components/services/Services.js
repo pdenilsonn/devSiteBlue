@@ -5,7 +5,7 @@ function Services() {
     <>
       <div className='container' id='servicos' >
         <div className='gTitles'>
-          <h3 className="titles">Serviços</h3>
+          <h3 className="titles">Services</h3>
           <p className="line"></p>
         </div>
         
@@ -13,35 +13,35 @@ function Services() {
           <div className="serviceCard">
             <div className='cardTitle'>
               <span><i class="fa-solid fa-microphone-lines" /></span>
-              <h3>Gravando</h3>
+              <h3>Recording</h3>
             </div>
-            <p>Estrutura para atender demandas de produção urgentes com eficiência e rapidez. Capacidade para mais de 200 horas de gravação mensal.
+            <p>Structure to meet urgent production demands efficiently and swiftly. Capacity for over 200 hours of monthly recording.
             </p>
           </div>
 
           <div className="serviceCard">
             <div className='cardTitle'>
               <span><i class="fa-solid fa-sliders" /></span>
-              <h3>Como No Original</h3>
+              <h3>As The Original</h3>
             </div>
-            <p>Estúdios projetados com excelência acústica, utilizando tecnologia de ponta e os melhores profissionais do mercado.
+            <p>Studios designed with acoustic excellence, utilizing cutting-edge technology and the best professionals in the market.
             </p>
           </div>
 
           <div className="serviceCard">
             <div className='cardTitle'>
               <span><i class="fa-solid fa-shield-halved" /></span>
-              <h3>100% Seguro</h3>
+              <h3>100% Safe</h3>
             </div>
-            <p>Rede interna protegida contra ataques cibernéticos e vazamento de dados, do início ao fim de todos os nossos projetos.</p>
+            <p>Internal network protected against cyber attacks and data leaks from the beginning to the end of all our projects.</p>
           </div>
 
           <div className="serviceCard">
             <div className='cardTitle'>
               <span><i class="fa-solid fa-clock"/></span>
-              <h3>Em Tempo Real</h3>
+              <h3>In Real Time</h3>
             </div>
-            <p>Nossa equipe oferece informações em tempo real sobre o progresso do seu projeto. Oferecemos relatórios diários e semanais.</p>
+            <p>Our team provides real-time information about the progress of your project. We offer daily and weekly reports.</p>
           </div>
 
         </div>

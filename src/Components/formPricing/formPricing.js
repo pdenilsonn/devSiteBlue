@@ -58,7 +58,7 @@ function FormPricing() {
             message: about,
         }
 
-        emailjs.send("service_7hhy3py", "template_ugexyne", templateParams, "1FIzvMgllN_YFWFel")
+        emailjs.send("service_v3xxlbh", "template_ugexyne", templateParams, "1FIzvMgllN_YFWFel")
             .then((response) => {
                 console.log('Email Enviando', response.status, response.text)
                 setFname('')
@@ -318,7 +318,7 @@ function FormPricing() {
                         <label className="title"><strong>Any notes about your project...</strong></label>
                         <p className="underline"></p>
                         <textarea
-                            placeholder="caso precise, escreva algo que seja importante sobre seu projeto"
+                            placeholder="In case you need, complement important information about yuor project here..."
                             row="5"
                             id="about"
                             onChange={(e) => setAbout(e.target.value)}
