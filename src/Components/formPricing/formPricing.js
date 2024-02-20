@@ -13,7 +13,7 @@ function FormPricing() {
     const [checkboxesProject, setCheckboxesProject] = useState([]);
     const [checkboxesMidia, setCheckboxesMedia] = useState([]);
     const [about, setAbout] = useState('');
-    
+
 
     // agrupar em array Tipos de Seriços
     const handleCheckboxProjectChange = (value) => {
@@ -235,14 +235,24 @@ function FormPricing() {
                                     value="Audio Descrição" />Audio Description
                             </label>
 
-                            <label for="traducao">
+                            <label for="legendas">
                                 <input
                                     type="checkbox"
-                                    id="traducao"
+                                    id="legendas"
                                     name="service"
-                                    checked={checkboxesProject.includes("Tradução")}
-                                    onChange={() => handleCheckboxProjectChange("Tradução")}
-                                    value="Tradução" />Translate
+                                    checked={checkboxesProject.includes("Legendas")}
+                                    onChange={() => handleCheckboxProjectChange("Legendas")}
+                                    value="Legendas" />Subtitles
+                            </label>
+
+                            <label for="audioBook">
+                                <input
+                                    type="checkbox"
+                                    id="audioBook"
+                                    name="service"
+                                    checked={checkboxesProject.includes("Audio Book")}
+                                    onChange={() => handleCheckboxProjectChange("Audio Book")}
+                                    value="Audio Book" />Audio Book
                             </label>
 
                             <label for="trilhaSonora">
@@ -286,6 +296,16 @@ function FormPricing() {
                                     checked={checkboxesMidia.includes("You Tube")}
                                     onChange={() => handleCheckboxMediaChange("You Tube")}
                                     value="You Tube" />YouTube
+                            </label>
+
+                            <label for="teatral">
+                                <input
+                                    type="checkbox"
+                                    id="teatral"
+                                    name="midia"
+                                    checked={checkboxesMidia.includes("Teatral")}
+                                    onChange={() => handleCheckboxMediaChange("Teatral")}
+                                    value="Teatral" /> Theatrical
                             </label>
 
                             <label for="redesSociais">

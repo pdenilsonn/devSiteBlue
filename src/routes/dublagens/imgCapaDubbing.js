@@ -36,6 +36,22 @@ import capaAnitaMui from "../../img/capaDubbing/capaAnitaMui.webp";
 import capaSitiados from "../../img/capaDubbing/capaSitiados.webp";
 import capaUnsolvedMysteries from "../../img/capaDubbing/capaUnsolvedMysteries.webp";
 import capaValente from "../../img/capaDubbing/capaValente.webp";
+import capaAmericanRescue from "../../img/capaDubbing/capaAmericanRescue.webp";
+import capaBreeders from "../../img/capaDubbing/capaBreeders.webp";
+import capaBuffy from "../../img/capaDubbing/capaBuffy.webp";
+import capaDelicacies from "../../img/capaDubbing/capaDelicacies.webp";
+import capaGhost from "../../img/capaDubbing/capaGhost.webp";
+import capaHacker from "../../img/capaDubbing/capaHacker.webp";
+import capaHysterical from "../../img/capaDubbing/capaHysterical.webp";
+import capaInsania from "../../img/capaDubbing/capaInsania.webp";
+import capaJustifyCity from "../../img/capaDubbing/capaJustifiedCity.webp";
+import capaSuccession from "../../img/capaDubbing/capaSuccession.webp";
+import capaVictoriaSecrets from "../../img/capaDubbing/capaVictoriaSecret.webp";
+import capaWillTrent from "../../img/capaDubbing/capaWillTrent.webp";
+import capaMotherTeresa from "../../img/capaDubbing/capaMotherTeresa.webp";
+import capaRingo from "../../img/capaDubbing/capaRingo.webp";
+import capaTierra from "../../img/capaDubbing/capaTierraIncog.webp";
+
 
 
 
@@ -298,7 +314,112 @@ const imgCapaDubbing = [
         name: "Valente",
         alt: "capa Valente",
         img: capaValente
-    }
+    },
+
+    {
+        id: 39,
+        name: "American Rescue DogShow",
+        alt: "capa America Rescue DogShoe",
+        img: capaAmericanRescue
+    },
+
+    {
+        id: 40,
+        name: "Breeders",
+        alt: "capa Breeders",
+        img: capaBreeders
+    },
+
+    {
+        id: 41,
+        name: "Buffy",
+        alt: "capa Buffy",
+        img: capaBuffy
+    },
+
+    {
+        id: 42,
+        name: "Delicacies Destiny",
+        alt: "capa Delicacies Destiny",
+        img: capaDelicacies
+    },
+
+    {
+        id: 42,
+        name: "Ghost Whisperer",
+        alt: "capa Ghost Whisperer",
+        img: capaGhost
+    },
+
+    {
+        id: 43,
+        name: "Hacker",
+        alt: "capa Hacker",
+        img: capaHacker
+    },
+
+    {
+        id: 44,
+        name: "Hysterical",
+        alt: "capa Hysterical",
+        img: capaHysterical
+    },
+
+    {
+        id: 45,
+        name: "Insania",
+        alt: "capa Insania",
+        img: capaInsania
+    },
+
+    {
+        id: 46,
+        name: "Justify City Primeval",
+        alt: "capa Justify City Primeval",
+        img: capaJustifyCity
+    },
+
+    {
+        id: 47,
+        name: "Succession",
+        alt: "capa Succession",
+        img: capaSuccession
+    },
+
+    {
+        id: 48,
+        name: "Victoria Secrets",
+        alt: "capa Victoria Secrets",
+        img: capaVictoriaSecrets
+    },
+
+    {
+        id: 49,
+        name: "Will Trent",
+        alt: "capa Will Trent",
+        img: capaWillTrent
+    },
+
+    {
+        id: 50,
+        name: "Mother Teresa",
+        alt: "capa Mother Teresa",
+        img: capaMotherTeresa
+    },
+
+    {
+        id: 51,
+        name: "Ringo",
+        alt: "capa Ringo",
+        img: capaRingo
+    },
+
+    {
+        id: 52,
+        name: "Tierra Incognita",
+        alt: "capa Tierra Incognita",
+        img: capaTierra
+    },
 ]
 
 export default imgCapaDubbing

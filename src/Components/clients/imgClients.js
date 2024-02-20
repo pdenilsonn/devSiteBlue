@@ -3,9 +3,9 @@ import logoParamount from "../../img/logoClients/logoParamount.webp"
 import logoFilmerise from "../../img/logoClients/logoFilmerise.webp"
 import logoMTV from "../../img/logoClients/logoMTV.webp"
 import logoNickelodeon from "../../img/logoClients/logoNickelodeon.webp"
-import logoEpicg from "../../img/logoClients/logoEpicG.webp"
+import logoVisualData from "../../img/logoClients/logoVisualData.webp"
 import logoRiot from "../../img/logoClients/logoRiot.webp"
-import logoBTI from "../../img/logoClients/logoBTI.webp"
+import logoA2Filmes from "../../img/logoClients/logoA2Filmes.webp"
 import logoBeliane from "../../img/logoClients/logoBeliane.webp"
 
 
@@ -43,9 +43,9 @@ const clientes = [
     },
     {
         id: 6,
-        nome: "Epic Games",
-        alt: "logo Epic Games",
-        img: logoEpicg
+        nome: "Visual Data",
+        alt: "logo  Visual Data",
+        img: logoVisualData
     },
     {
         id: 7,
@@ -55,9 +55,9 @@ const clientes = [
     },
     {
         id: 8,
-        nome: "BTI",
-        alt: "logo BTI Studios",
-        img: logoBTI
+        nome: "A2 Filmes",
+        alt: "logo  A2 Filmes",
+        img: logoA2Filmes
     },
     {
         id: 9,

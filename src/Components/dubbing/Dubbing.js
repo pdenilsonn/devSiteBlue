@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Dublagens from '../../routes/dublagens/dublagens';
-import './Dubbing.css'
+import './dubbing.css'
 import imgDubbing from "./imgDubbing"
 
 function Dubbing() {
